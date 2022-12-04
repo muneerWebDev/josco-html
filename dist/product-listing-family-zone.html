@@ -1,0 +1,1798 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Josco Jwellery Website">
+    <link rel="preload" href="style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <title>Josco Jewellers</title>
+</head>
+
+<body data-scrollbar>
+    <!-- main site header  -->
+    <header class="siteHeader">
+        <div class="container">
+            <nav class="navbar">
+                <!-- logo  -->
+                <a class="navbar-brand" aria-label="Josco Jwellers Logo" href="javaScript:void(0)"><img src="images/logo.png" alt="" class="img-fluid"></a>
+
+                <!-- outside search bar  -->
+                <form class="header-search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                </form>
+
+                <!-- secondary navbar  -->
+                <ul class="secondary-nav d-flex">
+
+                    <li class="account nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="javaScript:void(0)" id="accDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+
+                            <i class="icon">
+
+                                <svg width="21.548" height="21.666">
+                                    <path stroke="#000" stroke-width=".1"
+                                        d="M14.753 11.594a6.464 6.464 0 10-7.994 0 10.774 10.774 0 00-6.7 8.813 1.084 1.084 0 102.155.237 8.619 8.619 0 0117.131 0 1.077 1.077 0 001.077.959h.119a1.077 1.077 0 00.948-1.185 10.774 10.774 0 00-6.734-8.824zm-4-.765a4.31 4.31 0 114.31-4.31 4.31 4.31 0 01-4.307 4.31z"
+                                        data-name="Path 69" />
+                                </svg>
+                            </i>
+                            <span class="username">Varun Murali</span>
+                        </a>
+
+                        <ul class="dropdown-menu" aria-labelledby="accDropdown">
+                            <li><a class="dropdown-item" href="javaScript:void(0)">
+                                    <span class="icon">
+
+
+                                        <svg width="13.09" height="13.09">
+                                            <path fill="#000000"
+                                                d="M6.545 5.511A2.756 2.756 0 119.3 2.756a2.756 2.756 0 01-2.755 2.755zm0-4.823a2.067 2.067 0 102.067 2.067A2.067 2.067 0 006.545.689zm6.545 12.4h-.69v-.344a5.856 5.856 0 10-11.712 0v.344H0v-.344a6.545 6.545 0 1113.09 0z"
+                                                data-name="Path 5802" />
+                                        </svg>
+
+                                    </span>
+
+                                    My Account</a></li>
+                            <li><a class="dropdown-item" href="javaScript:void(0)">
+
+                                    <span class="icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12.939" height="11.472"
+                                            viewBox="0 0 12.939 11.472">
+                                            <path id="rect20596"
+                                                d="M7.969,4.987h-3.7A.269.269,0,0,0,4,5.256V7.74a.269.269,0,0,0,.269.269h.269v8.174a.269.269,0,0,0,.269.269h11.3a.269.269,0,0,0,.269-.269V8.009h.294a.269.269,0,0,0,.269-.269V5.256a.269.269,0,0,0-.269-.269H12.944C9.986,5,11.439,4.972,7.969,4.987Zm2.044,0h0Zm2.338,0H10.9S11,4.972,12.352,4.987Zm-7.814.538H9.381V7.471H4.538Zm5.381,0H11V15.914H9.919Zm1.614,0H16.4V7.471H11.533ZM5.076,8.009h4.3v7.905h-4.3Zm6.457,0h4.3v7.905h-4.3ZM9.541,16.428l.008,0Zm1.834,0-.012,0,.012,0Z"
+                                                transform="translate(-4 -4.98)" />
+                                        </svg>
+
+                                    </span>
+
+                                    Orders</a></li>
+                            <li>
+
+                            <li><a class="dropdown-item" href="javaScript:void(0)">
+
+                                    <span class="icon">
+
+
+                                        <svg width="15.005" height="12.79">
+                                            <path fill="none" stroke="#000" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width=".7"
+                                                d="M4.472.35A3.9 3.9 0 00.351 4.471c0 2.66 3.847 5.22 7.144 7.968 3.3-2.748 7.161-5.276 7.161-7.968A3.879 3.879 0 0010.535.35a4.448 4.448 0 00-3.04 1.649A4.438 4.438 0 004.473.35z" />
+                                        </svg>
+
+                                    </span>
+
+                                    Wishlist</a></li>
+                            <li>
+
+                            <li><a class="dropdown-item" href="javaScript:void(0)">
+
+                                    <span class="icon">
+
+                                        <svg width="11.462" height="12.736">
+                                            <path fill-rule="evenodd"
+                                                d="M4.722 1.092a2.079 2.079 0 00-.265 1.137.318.318 0 01-.318.318 1.329 1.329 0 00-1.052.442 2.932 2.932 0 00-.588 1.3 20.866 20.866 0 00-.27 4.306.319.319 0 01-.637 0v-.03a21.206 21.206 0 01.287-4.42 3.547 3.547 0 01.735-1.583 1.916 1.916 0 011.217-.634A2.455 2.455 0 014.193.737 1.731 1.731 0 015.731 0a1.731 1.731 0 011.538.739 2.455 2.455 0 01.362 1.191 1.916 1.916 0 011.217.634 3.548 3.548 0 01.735 1.583 21.207 21.207 0 01.287 4.42v.03a2.855 2.855 0 00.292 1.325 1.053 1.053 0 00.981.6.319.319 0 010 .637H7.87a2.12 2.12 0 01-.511.887 2.2 2.2 0 01-1.627.691 1.858 1.858 0 01-1.393-.664 2.139 2.139 0 01-.48-.916l-3.541-.012a.319.319 0 010-.637l3.821.013a.318.318 0 01.317.318 1.352 1.352 0 00.358.813 1.223 1.223 0 00.915.447 1.566 1.566 0 001.171-.493 1.291 1.291 0 00.381-.768.318.318 0 01.318-.318h2.2a2.071 2.071 0 01-.193-.291 3.482 3.482 0 01-.372-1.633 20.867 20.867 0 00-.27-4.306 2.932 2.932 0 00-.588-1.3 1.329 1.329 0 00-1.052-.442A.318.318 0 017 2.229a2.079 2.079 0 00-.26-1.137A1.1 1.1 0 005.731.637a1.1 1.1 0 00-1.009.455z"
+                                                data-name="Path 5807" />
+                                        </svg>
+
+                                    </span>
+
+                                    Notification <span class="count">(10)</span></a></li>
+                            <li>
+
+                            <li><a class="dropdown-item" href="javaScript:void(0)">
+
+                                    <span class="icon">
+                                        <svg width="11.857" height="13.108">
+                                            <g data-name="Group 5693">
+                                                <path
+                                                    d="M5.922 13.108A5.926 5.926 0 013.695 1.693a.458.458 0 11.342.848 5.01 5.01 0 104.327 9.023.458.458 0 11.436.793 5.92 5.92 0 01-2.878.751zm4.025-1.771a.467.467 0 01-.305-.119.458.458 0 01-.027-.647 5.01 5.01 0 00-1.8-8.034.458.458 0 11.342-.848 5.923 5.923 0 012.136 9.5.455.455 0 01-.346.148z"
+                                                    data-name="Path 5808" />
+                                                <path
+                                                    d="M5.922 6.621a.458.458 0 01-.458-.458V.458a.458.458 0 11.915 0v5.706a.458.458 0 01-.457.457z"
+                                                    data-name="Path 5809" />
+                                            </g>
+                                        </svg>
+
+                                    </span>
+
+                                    Logout</a></li>
+                            <li>
+                        </ul>
+                    </li>
+
+                    <li class="cart nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="javaScript:void(0)" id="cartDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="icon">
+                                <img src="images/icons/cart.svg" alt="">
+                            </i>
+                            <span class="item-count">3</span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="cartDropdown">
+                            <li><a class="dropdown-item" href="javaScript:void(0)">Action</a></li>
+                            <li><a class="dropdown-item" href="javaScript:void(0)">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="javaScript:void(0)">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#megaMenu" aria-controls="megaMenu" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+            </nav>
+        </div>
+
+        <!-- mega menu  -->
+        <div class="primary-nav collapse navbar-collapse" id="megaMenu">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-12">
+                <div class="head">
+
+                    <!-- inside search bar  -->
+                    <form class="header-search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    </form>
+
+                    <button class="ms-auto navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#megaMenu" aria-controls="megaMenu" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- main content  -->
+            <div class="col-12 main-content-wrap d-lg-flex align-items-start">
+
+                <!-- category navigation  -->
+                <div class="nav flex-column nav-pills hoverPills" id="megamenu-mainContent-tab" role="tablist"
+                    aria-orientation="vertical">
+
+                    <button class="nav-link active" id="collections-tab" data-bs-toggle="pill"
+                        data-bs-target="#collections" type="button" role="tab" aria-controls="collections"
+                        aria-selected="true">Collections</button>
+
+                    <button class="nav-link" id="v-pills-goldScheme-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-goldScheme" type="button" role="tab" aria-controls="v-pills-goldScheme"
+                        aria-selected="false">Gold Scheme</button>
+
+                    <button class="nav-link" id="v-pills-advancedBooking-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-advancedBooking" type="button" role="tab"
+                        aria-controls="v-pills-advancedBooking" aria-selected="false">Advanced
+                        Booking</button>
+
+                    <button class="nav-link" id="v-pills-virtualTry-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-virtualTry" type="button" role="tab" aria-controls="v-pills-virtualTry"
+                        aria-selected="false">Virtual Try</button>
+
+                    <button class="nav-link" id="v-pills-Customization-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-Customization" type="button" role="tab"
+                        aria-controls="v-pills-Customization" aria-selected="false">Customization</button>
+
+                    <button class="nav-link" id="v-pills-FindRingSize-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-FindRingSize" type="button" role="tab"
+                        aria-controls="v-pills-FindRingSize" aria-selected="false">Find Ring
+                        Size</button>
+
+                    <button class="nav-link" id="v-pills-RealtimeInspection-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-RealtimeInspection" type="button" role="tab"
+                        aria-controls="v-pills-RealtimeInspection" aria-selected="false">Realtime
+                        Inspection</button>
+
+                    <a href="javaScript:void(0)" class="nav-link">
+                        Loyalty Point
+                    </a>
+
+                    <a href="javaScript:void(0)" class="nav-link">
+                        About Us
+                    </a>
+                    <a href="javaScript:void(0)" class="nav-link">
+                        Contact Us
+                    </a>
+
+                </div>
+
+                <!-- category content -->
+                <div class="tab-content" id="megamenu-mainContent-tabContent">
+
+                    <div class="tab-pane fade show active" id="collections" role="tabpanel"
+                        aria-labelledby="collections-tab">
+
+                        <ul class="types">
+
+                            <li class="type gold">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/gold.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Gold</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type diamond">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/diamond.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Diamond</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type diamond">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/platinum.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Platinum</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type silver">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/silver.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Silver</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type watches">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/watches.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Watches</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                    <div class="tab-pane fade" id="v-pills-goldScheme" role="tabpanel"
+                        aria-labelledby="v-pills-goldScheme-tab">
+
+                        <ul class="types">
+
+                            <li class="type gold">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/gold.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Gold</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type diamond">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/diamond.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Diamond</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type diamond">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/platinum.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Platinum</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type silver">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/silver.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Silver</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type watches">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/watches.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Watches</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                    <div class="tab-pane fade" id="v-pills-advancedBooking" role="tabpanel"
+                        aria-labelledby="v-pills-advancedBooking-tab">.
+
+                        <ul class="types">
+
+                            <li class="type gold">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/gold.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Gold</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type diamond">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/diamond.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Diamond</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type diamond">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/platinum.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Platinum</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type silver">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/silver.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Silver</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type watches">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/watches.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Watches</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                    <div class="tab-pane fade" id="v-pills-virtualTry" role="tabpanel"
+                        aria-labelledby="v-pills-virtualTry-tab">
+
+                        <ul class="types">
+
+                            <li class="type gold">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/gold.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Gold</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type diamond">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/diamond.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Diamond</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type diamond">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/platinum.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Platinum</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type silver">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/silver.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Silver</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type watches">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/watches.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Watches</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-pane fade" id="v-pills-Customization" role="tabpanel"
+                        aria-labelledby="v-pills-Customization-tab">
+
+                        <ul class="types">
+
+                            <li class="type gold">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/gold.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Gold</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type diamond">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/diamond.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Diamond</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type diamond">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/platinum.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Platinum</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type silver">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/silver.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Silver</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type watches">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/watches.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Watches</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-pane fade" id="v-pills-FindRingSize" role="tabpanel"
+                        aria-labelledby="v-pills-FindRingSize-tab">
+
+                        <ul class="types">
+
+                            <li class="type gold">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/gold.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Gold</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type diamond">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/diamond.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Diamond</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type diamond">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/platinum.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Platinum</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type silver">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/silver.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Silver</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type watches">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/watches.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Watches</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                        </ul>
+                    </div>
+
+
+                    <div class="tab-pane fade" id="v-pills-RealtimeInspection" role="tabpanel"
+                        aria-labelledby="v-pills-RealtimeInspection-tab">
+
+                        <ul class="types">
+
+                            <li class="type gold">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/gold.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Gold</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type diamond">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/diamond.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Diamond</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type diamond">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/platinum.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Platinum</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type silver">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/silver.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Silver</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type watches">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/watches.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Watches</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+    </header>
+
+<main class="product-listing container">
+
+    <section class="banner" style="background-image:url('images/family-zone.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1>Family Zone</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sidebar">
+
+        <div class="family-special filters filter-group">
+            <p class="filter-title list-toggler active slidable">Select Gender/Relation</p>
+
+            <ul class="filter-menu">
+                <li class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="fam-Woman" checked="">
+                    <label class="form-check-label" for="fam-Woman">
+                        <span class="icon">
+                            <svg width="14.466" height="20.787">
+                                <path fill="#000"
+                                    d="M14.249 18.394v2.047a.346.346 0 11-.693 0v-2.047a2.881 2.881 0 00-2.883-2.883 2.127 2.127 0 01-1.83-1.028.346.346 0 01.592-.36 1.439 1.439 0 001.238.7 3.574 3.574 0 013.576 3.571zm-5.78-2.683l-1.236.957-2.1-1.626a2.122 2.122 0 00.794-1.5 4.634 4.634 0 005.94-4.442V6.647a.346.346 0 00-.345-.324 1.426 1.426 0 01-.9-.167 1.577 1.577 0 01-.655-1.26.347.347 0 00-.547-.285A11.165 11.165 0 014.502 6.56a.346.346 0 00.048.69 11.4 11.4 0 002.455-.6 11.88 11.88 0 002.35-1.162 1.957 1.957 0 001.819 1.539V9.1a3.941 3.941 0 11-7.882 0V6.669a.346.346 0 00-.693 0V9.1a4.64 4.64 0 002.642 4.183v.091a1.444 1.444 0 01-1.448 1.444 3.574 3.574 0 00-1.279.235l-.224-.178a4.232 4.232 0 01-.887-5.66 4.786 4.786 0 00.81-2.661V4.677A3.989 3.989 0 016.194.693h2.079a3.989 3.989 0 013.984 3.984v1.877a4.762 4.762 0 00.8 2.656 4.232 4.232 0 01-.034 4.756.346.346 0 10.57.393 4.925 4.925 0 00.039-5.534 4.071 4.071 0 01-.685-2.271V4.677A4.682 4.682 0 008.272 0H6.194a4.683 4.683 0 00-4.681 4.677v1.877a4.1 4.1 0 01-.689 2.278 4.923 4.923 0 001.01 6.568 3.566 3.566 0 00-1.62 2.994v2.047a.346.346 0 10.693 0v-2.047a2.881 2.881 0 012.883-2.883 2.148 2.148 0 00.674-.108l2.554 1.977a.347.347 0 00.424 0l1.448-1.121a.346.346 0 00-.424-.548z" />
+                            </svg>
+                        </span>
+                        Woman
+                    </label>
+                </li>
+                <li class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="fam-men" checked="">
+                    <label class="form-check-label" for="fam-men">
+                        <span class="icon">
+                            <svg width="14.578" height="21.6">
+                                <path
+                                    d="M14.578 19.114v2.126a.36.36 0 01-.72 0v-2.126a2.994 2.994 0 00-3-3 2.21 2.21 0 01-1.9-1.068.36.36 0 01.615-.374 1.5 1.5 0 001.294.728 3.713 3.713 0 013.715 3.715zm-6.281-3.608a.36.36 0 01-.275.428 3.445 3.445 0 01-2.678-.524 2.183 2.183 0 01-1.628.708 2.994 2.994 0 00-3 3v2.122a.36.36 0 01-.72 0v-2.126A3.713 3.713 0 013.715 15.4a1.5 1.5 0 001.5-1.5v-.1a4.822 4.822 0 01-2.741-4.168 1.469 1.469 0 01-1.128-1.423V6.347A6.594 6.594 0 013.13 1.538C5.19-.447 8.493-.321 10.921.848a.361.361 0 01.076.6 4.858 4.858 0 012.973 2.139.4.4 0 01.083.283.364.364 0 01-.1.228 2.35 2.35 0 00-.68 1.66v2.455a.36.36 0 01-.72 0V5.757a3.064 3.064 0 01.7-1.957 4.158 4.158 0 00-2.986-1.752l-.633-.068a.36.36 0 01-.1-.691l.288-.118s-7.755.146-7.755 5.172v1.87a.743.743 0 00.4.659V6.538a2.523 2.523 0 012.52-2.52h4.589a2.522 2.522 0 012.52 2.52v2.947a4.821 4.821 0 01-6.172 4.592 2.2 2.2 0 01-.188.735 2.726 2.726 0 002.125.419.36.36 0 01.428.275zm-1.008-1.954a4.1 4.1 0 004.094-4.094V6.537a1.8 1.8 0 00-1.8-1.8H4.994a1.8 1.8 0 00-1.8 1.8v2.92a4.1 4.1 0 004.095 4.095zm3.645 6.2h-1.08a.36.36 0 100 .72h1.08a.36.36 0 100-.72z" />
+                            </svg>
+                        </span>
+                        Men
+                    </label>
+                </li>
+                <li class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="fam-mom">
+                    <label class="form-check-label" for="fam-mom">
+                        <span class="icon">
+                            <svg width="17.572" height="21.8">
+                                <path
+                                    d="M8.241 21.8a.319.319 0 01-.294-.194l-1.275-2.989a.32.32 0 11.587-.251l1.275 2.989a.32.32 0 01-.294.445zm-3.747 0a.319.319 0 01-.294-.194 12.748 12.748 0 01-1.044-5.1 11.934 11.934 0 01.7-3.539A10.582 10.582 0 004.492 9.9a2.906 2.906 0 00-.087-.711 3.964 3.964 0 01-2.053.288A2.81 2.81 0 01.69 8.615a2.6 2.6 0 01-.692-1.791 2.535 2.535 0 01.8-1.877 2.752 2.752 0 011.917-.71 4.1 4.1 0 011.714-3.2A6.191 6.191 0 018.022 0a7.982 7.982 0 011.894.218.32.32 0 01-.152.62 7.449 7.449 0 00-1.742-.2 5.553 5.553 0 00-3.217.915 3.5 3.5 0 00-1.458 3.021 5.177 5.177 0 00.921 2.809 10.346 10.346 0 01.5.922 5.681 5.681 0 00.945-.663 2.067 2.067 0 01-.191-.887 1.319 1.319 0 011.292-1.342 1.261 1.261 0 01.8.288 5.164 5.164 0 001.194-2.129.319.319 0 01.313-.257 4.245 4.245 0 001.282-.228 1.568 1.568 0 001.191-1.372 3.722 3.722 0 00-.777-.5.32.32 0 11.281-.575c1.27.624 2.659 1.982 2.058 4.9a1.814 1.814 0 00-.024.872 1.547 1.547 0 00.411.63 1.249 1.249 0 01.433.834A1.1 1.1 0 0113 8.9a9.4 9.4 0 01-.8 2.365q.137-.012.277-.012a3.207 3.207 0 011.4.317.32.32 0 01-.276.576 2.574 2.574 0 00-1.122-.254 2.608 2.608 0 00-2.6 2.494 3.386 3.386 0 01.356.636l.259.608a.28.28 0 00.268-.169.32.32 0 01.585.256.919.919 0 01-.595.519l.514 1.2a2.03 2.03 0 001.9-.051 1.569 1.569 0 01.773-1.345l1.006-.615a.62.62 0 00.346-.565c0-.19-.122-.35-.265-.35a.236.236 0 00-.173.087.32.32 0 11-.481-.42.876.876 0 01.624-.3 2.57 2.57 0 00-.6-1.13.32.32 0 01.473-.429 3.247 3.247 0 01.825 1.882 1.037 1.037 0 01.236.665 1.3 1.3 0 01-.05.361 1.455 1.455 0 011.147.832c.452.975.54 2.729.54 5.428a.32.32 0 11-.639 0c0-.842-.006-1.688-.042-2.461h-2.11a1.569 1.569 0 01-1.486-.991 2.955 2.955 0 01-1.68.223l1.32 3.094a.32.32 0 01-.587.251l-2.7-6.328a2.731 2.731 0 00-2.515-1.662.32.32 0 110-.639 3.373 3.373 0 011.279.251v-1.5c-.262-.11-.43-.2-.45-.206a.32.32 0 01.291-.569 6.689 6.689 0 002.47.691c.542 0 .947-.488 1.327-1.672a1.9 1.9 0 01-1.207-.7.32.32 0 11.52-.371 1.333 1.333 0 00.867.455q.1-.371.2-.81a.319.319 0 01.3-.249c.294-.012.612-.171.612-.407 0-.108-.1-.223-.265-.4a2.136 2.136 0 01-.556-.891 2.224 2.224 0 01-.019-1 2.267 2.267 0 00-1.519-.341.32.32 0 01-.042-.637 3.171 3.171 0 011.679.3 3.661 3.661 0 00-.492-2.6 2.293 2.293 0 01-1.521 1.377 4.821 4.821 0 01-1.238.25 6.3 6.3 0 01-1.522 2.447.319.319 0 01-.484-.02.326.326 0 01-.02-.029.641.641 0 00-.528-.29.68.68 0 00-.653.7 1.251 1.251 0 001.306 1.31.32.32 0 110 .639 1.94 1.94 0 01-1.383-.539 6.691 6.691 0 01-1.089.744 3.538 3.538 0 01.14.988 10.579 10.579 0 01-.6 3.07h1.321a.32.32 0 110 .639h-1.52a10.074 10.074 0 00-.537 2.9 12.121 12.121 0 00.992 4.847.32.32 0 01-.294.445zm10.788-5.83l-1.006.615a.969.969 0 00.505 1.8h2.071a6.532 6.532 0 00-.4-2.059.805.805 0 00-.5-.437.822.822 0 00-.666.085zm-6.231-2.4q.138.1.267.2a3.215 3.215 0 01.838-1.541 6.515 6.515 0 01-1.1-.271zM2.697 4.88a2.108 2.108 0 00-1.46.538 1.9 1.9 0 00-.6 1.41 2.033 2.033 0 001.807 2.021 3.4 3.4 0 001.745-.262 9.849 9.849 0 00-.474-.877 5.96 5.96 0 01-1-2.83h-.02zm9.238 12.142a.884.884 0 01-.093 0 .32.32 0 01.067-.635.58.58 0 00.383-.139.32.32 0 01.46.443 1.2 1.2 0 01-.817.326zm.694-1.587a.919.919 0 01-.37-.078.32.32 0 11.256-.585.283.283 0 00.373-.145.32.32 0 11.585.256.924.924 0 01-.844.552zm-1.507-8.128a1.363 1.363 0 01-.992-.43.32.32 0 11.469-.433.71.71 0 00.706.2.32.32 0 11.188.61 1.258 1.258 0 01-.371.055z"
+                                    data-name="Path 5886" />
+                            </svg>
+                        </span>
+                        Mother
+                    </label>
+                </li>
+                <li class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="Father">
+                    <label class="form-check-label" for="Father">
+                        <span class="icon">
+                            <svg width="17.55" height="21.3" data-name="Group 5857">
+                                <g data-name="Group 5856">
+                                    <path
+                                        d="M8.775 10.981a.337.337 0 00.337-.337v-.839a.337.337 0 10-.674 0v.839a.337.337 0 00.337.337z"
+                                        data-name="Path 5887" />
+                                    <path
+                                        d="M13.664 16.054h-2.591v-.589a4.949 4.949 0 00.554-.341.343.343 0 00.031-.026 4.96 4.96 0 00.815-.741l.023-.024a4.936 4.936 0 00.559-.792l.1-.176.012-.022q.068-.134.127-.271l.022-.052.047-.116.029-.075.026-.072.031-.092.027-.084.028-.094.017-.059.035-.134.012-.049.025-.115.008-.04q.015-.073.027-.147l.007-.042c.008-.051.016-.1.022-.154v-.017a4.984 4.984 0 00.038-.609V9.967a1.741 1.741 0 00.474-3.154 6.007 6.007 0 00-1.166-5.011.336.336 0 00-.029-.029 4.828 4.828 0 00-.578-.553.337.337 0 10-.424.524 4.256 4.256 0 01.566.552 4.347 4.347 0 01.929 1.944v.013l.021.106.008.045.015.086.011.069.01.068.012.093.006.05q.007.059.012.119v.028a7.3 7.3 0 010 1.181 3.146 3.146 0 00-1.3-1.89 2.547 2.547 0 00-2.633.2 8.886 8.886 0 01-5.36.96 2.181 2.181 0 01-1.716-2.129 2.123 2.123 0 013.341-1.747.337.337 0 00.364.013A5.792 5.792 0 019.584.702h.014a4.412 4.412 0 01.712.164h.015l.028.009.043.014h.009a5.33 5.33 0 01.71.293.337.337 0 00.3-.6c-.188-.08-.363-.163-.533-.228h-.008l-.16-.062-.023-.007-.106-.036-.029-.009-.053-.017L10.46.21l-.067-.02-.048-.014-.037-.01-.072-.019L10.21.14l-.058-.014h-.019l-.071-.024h-.016L9.915.074h-.008L9.798.053 9.753.046H9.68L9.56.021a6.458 6.458 0 00-3.464.8 2.8 2.8 0 00-4.212 2.413 2.879 2.879 0 00.643 1.811c.024.03.049.059.074.087l.025.027.053.057.03.031.051.051.031.03.056.051.029.026.073.061.013.011.091.069.019.013.074.052.027.018.07.044.028.017.075.043.023.013.1.05q.105.052.215.095l.014.005.094.034.021.007.042.014v.651a1.743 1.743 0 000 3.365v1.146a4.982 4.982 0 00.038.609v.017a4.92 4.92 0 002.582 3.722v.591h-2.59A3.89 3.89 0 000 19.937v.484a.877.877 0 00.876.876h3.193a.337.337 0 100-.674H.876a.2.2 0 01-.2-.2v-.484a3.215 3.215 0 013.211-3.211h2.61c0 .009 0 .019.007.028s0 .019.007.028.008.025.012.037l.009.026a.503.503 0 00.017.041l.008.02c.009.02.019.04.03.059l.013.022.022.037.017.025.022.032.02.026.024.03.022.025.026.028.025.025.028.027.027.025.03.026.029.024.032.025.03.023.034.024.032.022.036.023.033.021.039.023.034.02.042.022.034.018.048.023.031.015.082.036.027.011.059.023.036.013.053.019.04.013.052.016.043.012.052.015.044.011.053.013.046.01.055.012.047.009.056.01.047.008.058.009.048.007.06.007.048.005.063.006H9.162l.064-.006.047-.005.061-.008.047-.007.059-.009.046-.008.058-.011.045-.009.057-.012.043-.01.056-.014.041-.011.056-.016.039-.011.057-.018.035-.011.061-.022.028-.01.078-.031h.008l.084-.037.018-.009.061-.03.026-.014.05-.027.028-.016.045-.026.028-.018.041-.027.028-.019.038-.027.026-.02.036-.028.025-.021.033-.029.023-.022.031-.03.021-.022.029-.032.019-.022.027-.034.017-.022.026-.037.014-.02a.535.535 0 00.027-.045l.008-.013q.017-.03.031-.06l.005-.012.021-.049.008-.022c0-.013.009-.026.013-.04s0-.017.007-.026.005-.019.008-.029h2.612a3.215 3.215 0 013.211 3.211v.484a.2.2 0 01-.2.2h-11.5a.337.337 0 000 .674h11.5a.877.877 0 00.876-.876v-.484a3.89 3.89 0 00-3.885-3.884zm.032-8.736a1.069 1.069 0 010 1.933zM3.855 9.252a1.069 1.069 0 010-1.933zm.7 2.288a4.324 4.324 0 01-.021-.426V6.078a9.446 9.446 0 005.437-1.086 1.931 1.931 0 011.956-.204 2.838 2.838 0 011.095 2.1v4.231a4.31 4.31 0 01-.022.435 1.466 1.466 0 01-1.12.59 1.2 1.2 0 01-.7-.322 1.979 1.979 0 00-2.4-.194 1.979 1.979 0 00-2.4.194 1.2 1.2 0 01-.7.322 1.472 1.472 0 01-1.13-.604zm4.429 1.015a.336.336 0 00-.287-.058l-.027.008h-.011l-.019.008-.016.008-.013.007-.019.012h-.014a2.366 2.366 0 01-2.453.186 2.451 2.451 0 00.658-.379c.458-.335.819-.6 1.847-.063a.337.337 0 00.312 0c1.028-.537 1.39-.272 1.847.063a2.461 2.461 0 00.653.378 2.365 2.365 0 01-2.463-.171zm.369.94a1.386 1.386 0 01-1 .048 1.407 1.407 0 01-.138-.052 3.422 3.422 0 00.563-.266 3.424 3.424 0 00.57.269zm1.052 2.9v.155c0 .237-.525.571-1.357.632q-.129.009-.268.01h-.181c-.882-.043-1.44-.392-1.444-.637v-.786a4.843 4.843 0 00.933.226h.01l.1.013.129.014.068.006.16.01h.442l.141-.008h.087l.072-.028h.072l.088-.012h.018l.09-.013.1-.018.092-.018.1-.021.1-.024.085-.022.118-.033.066-.02.143-.047.028-.009v.631zm-1.027-1.073h-.017a4.165 4.165 0 01-.161.019h-.041l-.145.01h-.476l-.125-.009-.068-.007-.115-.013-.069-.01-.116-.019-.063-.011-.136-.029-.04-.009q-.087-.021-.172-.045l-.048-.014-.123-.038-.063-.022-.1-.038-.066-.026-.1-.041-.064-.028-.105-.049-.055-.026q-.077-.038-.153-.079l-.037-.021-.114-.066-.061-.038-.087-.056-.064-.043-.08-.056-.064-.047-.077-.059-.062-.049-.08-.068-.075-.065-.1-.09-.06-.059-.063-.063-.061-.065-.056-.062-.06-.069-.052-.062-.059-.073-.047-.062-.071-.073-.03-.043q-.06-.085-.115-.173l-.038-.06-.051-.086-.037-.064-.047-.088-.034-.067-.044-.09-.031-.068-.041-.093-.027-.066-.036-.091c.039.02.078.038.117.055a3.073 3.073 0 002.241 1.027h.105a2.626 2.626 0 00.853.492 2.126 2.126 0 00.68.114 2.3 2.3 0 001.506-.606h.1a3.071 3.071 0 002.229-1.024c.041-.017.082-.036.122-.056a4.262 4.262 0 01-3.377 2.713z"
+                                        data-name="Path 5888" />
+                                    <path
+                                        d="M6.514 10.295a.995.995 0 10-.995-.995 1 1 0 00.995.995zm0-1.316a.321.321 0 11-.321.321.321.321 0 01.321-.321z"
+                                        data-name="Path 5889" />
+                                    <path
+                                        d="M10.987 8.304a.995.995 0 10.995.995 1 1 0 00-.995-.995zm0 1.316a.321.321 0 11.321-.321.321.321 0 01-.321.321z"
+                                        data-name="Path 5890" />
+                                    <path
+                                        d="M5.725 7.997a1.562 1.562 0 011.55.076.337.337 0 10.38-.557 2.242 2.242 0 00-2.254-.11.337.337 0 00.325.591z"
+                                        data-name="Path 5891" />
+                                    <path
+                                        d="M10.086 8.132a.336.336 0 00.19-.059 1.562 1.562 0 011.549-.076.337.337 0 00.325-.59 2.242 2.242 0 00-2.254.11.337.337 0 00.19.615z"
+                                        data-name="Path 5892" />
+                                </g>
+                            </svg>
+                        </span>
+                        Father
+                    </label>
+                </li>
+                <li class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="Kids">
+                    <label class="form-check-label" for="Kids">
+                        <span class="icon">
+                            <svg id="brother" xmlns="http://www.w3.org/2000/svg" width="21.78" height="20"
+                                viewBox="0 0 21.78 20">
+                                <path id="Path_5893" data-name="Path 5893"
+                                    d="M21.314,34.658V29.451a17.478,17.478,0,0,0-.208-2.838.32.32,0,0,0-.631.105,16.841,16.841,0,0,1,.2,2.733v4.263a4.393,4.393,0,0,0-2.542-1.421,3.626,3.626,0,0,0,1.67-3.051V27.918a.32.32,0,0,0-.188-.292,7.721,7.721,0,0,1-3.16-2.879.32.32,0,0,0-.557,0,7.721,7.721,0,0,1-3.16,2.879.32.32,0,0,0-.189.292v1.325a3.626,3.626,0,0,0,1.67,3.051,4.393,4.393,0,0,0-2.543,1.421V29.451c0-2.591.434-4.481,1.29-5.618a3.732,3.732,0,0,1,3.209-1.43,3.827,3.827,0,0,1,4.008,3.061.32.32,0,0,0,.61-.191,5.032,5.032,0,0,0-1.826-2.728,4.712,4.712,0,0,0-2.792-.781,4.331,4.331,0,0,0-3.72,1.685c-.955,1.268-1.419,3.231-1.419,6v5.208q-.08.158-.146.324A4.411,4.411,0,0,0,7.563,32.3,3.646,3.646,0,0,0,9.031,30.44a1.422,1.422,0,0,0,1.182-2.21,4.641,4.641,0,0,0,.6-3.979,3.567,3.567,0,0,0-2.167-2.278A2.646,2.646,0,0,0,7.1,21.8a2.981,2.981,0,0,0-3.056-.77,4.407,4.407,0,0,0-2.4,1.632.32.32,0,0,0,.5.4A3.774,3.774,0,0,1,4.186,21.65a2.248,2.248,0,0,1,2.539.7.311.311,0,0,0,.221.166.285.285,0,0,0,.245-.072c.056-.027.408-.165,1.243.133a2.932,2.932,0,0,1,1.775,1.878,3.982,3.982,0,0,1-.471,3.332,1.412,1.412,0,0,0-.5-.175v-.286a.32.32,0,0,0-.2-.3,4.636,4.636,0,0,1-2.241-2.4.32.32,0,0,0-.548-.087,6.885,6.885,0,0,1-3.992,2.466.32.32,0,0,0-.277.317v.286a1.417,1.417,0,0,0-.672.289,4.526,4.526,0,0,1,.2-3.818.32.32,0,0,0-.575-.28,5.072,5.072,0,0,0-.056,4.662A1.423,1.423,0,0,0,2.18,30.44,3.646,3.646,0,0,0,3.649,32.3,4.4,4.4,0,0,0,0,36.631V40.6a.32.32,0,0,0,.32.32H21.46a.32.32,0,0,0,.32-.32V36.624a4.367,4.367,0,0,0-.465-1.966Zm-4.126-1.789a1.343,1.343,0,0,1-.317.721,1.065,1.065,0,0,1-1.391,0,1.343,1.343,0,0,1-.318-.721Zm-4-3.627V28.117a8.408,8.408,0,0,0,2.988-2.606,8.408,8.408,0,0,0,2.987,2.606v1.125a2.987,2.987,0,0,1-5.975,0ZM6.4,32.874l-.7,1.187a.107.107,0,0,1-.183,0l-.7-1.187Zm3.413-3.857a.785.785,0,0,1-.618.766,3.64,3.64,0,0,0,.04-.537v-.984A.784.784,0,0,1,9.812,29.017Zm-8.413,0a.784.784,0,0,1,.578-.755v.984a3.64,3.64,0,0,0,.04.537A.785.785,0,0,1,1.4,29.017Zm1.217.229V27.587a7.523,7.523,0,0,0,3.8-2.262,5.063,5.063,0,0,0,2.178,2.207v1.714a2.989,2.989,0,0,1-5.978,0ZM.639,36.631a3.762,3.762,0,0,1,3.433-3.743l.89,1.5a.746.746,0,0,0,1.283,0l.89-1.5a3.762,3.762,0,0,1,3.438,3.743v3.646H9.124V37.135a.32.32,0,0,0-.639,0v3.142H2.728V37.135a.32.32,0,0,0-.639,0v3.142H.639ZM13.3,39.6h2.96a.32.32,0,1,0,0-.639H13.3v-.682h5.753v.682H17.538a.32.32,0,1,0,0,.639h1.514v.681H13.3Zm7.841.681H19.692V37.128a.32.32,0,0,0-.639,0v.507H13.3v-.507a.32.32,0,0,0-.639,0v3.149H11.212V36.624A3.76,3.76,0,0,1,14.52,32.9a2.015,2.015,0,0,0,.5,1.14,1.7,1.7,0,0,0,2.308,0,2.015,2.015,0,0,0,.5-1.14,3.76,3.76,0,0,1,3.309,3.728v3.653Z"
+                                    transform="translate(0 -20.917)" />
+                                <path id="Path_5894" data-name="Path 5894"
+                                    d="M335.4,185.224a.32.32,0,0,0-.32.32v.741a.32.32,0,1,0,.639,0v-.741A.32.32,0,0,0,335.4,185.224Z"
+                                    transform="translate(-320.826 -178.235)" />
+                                <path id="Path_5895" data-name="Path 5895"
+                                    d="M410.747,186.6a.32.32,0,0,0,.32-.32v-.741a.32.32,0,1,0-.639,0v.741A.32.32,0,0,0,410.747,186.6Z"
+                                    transform="translate(-392.968 -178.235)" />
+                                <path id="Path_5896" data-name="Path 5896"
+                                    d="M86.9,185.289a.32.32,0,0,0-.32.32v.742a.32.32,0,1,0,.639,0v-.742A.32.32,0,0,0,86.9,185.289Z"
+                                    transform="translate(-82.897 -178.297)" />
+                                <path id="Path_5897" data-name="Path 5897"
+                                    d="M162.28,186.671a.32.32,0,0,0,.32-.32v-.742a.32.32,0,1,0-.639,0v.742A.32.32,0,0,0,162.28,186.671Z"
+                                    transform="translate(-155.07 -178.298)" />
+                                <path id="Path_5898" data-name="Path 5898"
+                                    d="M109.569,234.335a.32.32,0,1,0-.592-.244s-.092.186-.428.186-.427-.184-.428-.186a.32.32,0,1,0-.592.244,1.184,1.184,0,0,0,2.04,0Z"
+                                    transform="translate(-102.931 -224.833)" />
+                                <path id="Path_5899" data-name="Path 5899"
+                                    d="M357.511,234.335a.32.32,0,1,0-.592-.244s-.092.186-.428.186-.427-.184-.428-.186a.32.32,0,1,0-.592.244,1.184,1.184,0,0,0,2.04,0Z"
+                                    transform="translate(-340.327 -224.833)" />
+                            </svg>
+
+                        </span>
+                        Kids
+                    </label>
+                </li>
+                <li class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="Brother">
+                    <label class="form-check-label" for="Brother">
+                        <span class="icon">
+                            <svg width="14.492" height="20">
+                                <path
+                                    d="M13.911 12.557a2.646 2.646 0 00-1.489-.923L9.544 11a.491.491 0 01-.383-.477v-.567a3.728 3.728 0 001.812-3.2v-.271h.127a1.103 1.103 0 000-2.207h-.129v-2.1A2.2 2.2 0 008.79 0H5.7a2.185 2.185 0 00-2.18 2.182v2.1h-.129a1.103 1.103 0 000 2.207h.129v.271a3.728 3.728 0 001.812 3.2v.568a.491.491 0 01-.384.477l-2.878.632A2.637 2.637 0 000 14.209v5.5a.293.293 0 10.586 0v-1.467h2.463v1.465a.293.293 0 10.586 0V17.29a.293.293 0 10-.586 0v.366H.586v-3.447a2.064 2.064 0 011.611-2l1.9-.418 1.511 1.976a.569.569 0 00.535.215v1.549a.293.293 0 00.586 0V13.55l.516-.516.516.516v6.157a.293.293 0 10.586 0v-5.728a.569.569 0 00.535-.215l1.518-1.976 1.9.418a2.064 2.064 0 011.611 2v3.447h-2.468v-.363a.293.293 0 10-.586 0v2.417a.293.293 0 10.586 0v-1.465h2.463v1.465a.293.293 0 10.586 0v-5.5a2.646 2.646 0 00-.582-1.652zm-2.292-7.176a.518.518 0 01-.519.519h-.129V4.864h.129a.518.518 0 01.519.517zm-1.232-3.2v1.976a3.287 3.287 0 01-.788-.47 3.336 3.336 0 01-.778-.9 12.149 12.149 0 001.198-1.62 1.589 1.589 0 01.368 1.015zm-7 3.716a.517.517 0 010-1.035h.129V5.9zm.715.861V4.854a7.462 7.462 0 001.842-.326.293.293 0 00-.174-.559 6.874 6.874 0 01-1.668.3V2.182a1.6 1.6 0 011.6-1.6H8.79a1.586 1.586 0 01.774.2c-.157.258-.324.511-.5.754a6.34 6.34 0 01-2.115 1.932.293.293 0 10.28.515 7.136 7.136 0 001.16-.788 3.925 3.925 0 00.843.943 3.87 3.87 0 001.156.642v1.98a3.14 3.14 0 11-6.281 0zm3.14 3.726a3.707 3.707 0 001.328-.245v.283a1.059 1.059 0 00.046.306L7.246 12.2l-1.374-1.37a1.057 1.057 0 00.046-.306v-.283a3.708 3.708 0 001.328.245zM6.231 13.22l-.168.168-1.332-1.741.345-.076a1.064 1.064 0 00.473-.239l1.285 1.285zm2.2.171l-.167-.167-.6-.6 1.285-1.285a1.064 1.064 0 00.473.239l.346.076z"
+                                    data-name="Path 5904" />
+                            </svg>
+                        </span>
+                        Brother
+                    </label>
+                </li>
+                <li class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="Sister">
+                    <label class="form-check-label" for="Sister">
+                        <span class="icon">
+                            <svg id="Group_5868" data-name="Group 5868" xmlns="http://www.w3.org/2000/svg"
+                                width="14.492" height="19.999" viewBox="0 0 14.492 19.999">
+                                <g id="Group_5867" data-name="Group 5867" transform="translate(6.634 14.356)">
+                                    <g id="Group_5866" data-name="Group 5866" transform="translate(0 0)">
+                                        <ellipse id="Ellipse_120" data-name="Ellipse 120" cx="0.462" rx="0.462" />
+                                        <ellipse id="Ellipse_121" data-name="Ellipse 121" cx="0.462" rx="0.462"
+                                            transform="translate(0 1.849)" />
+                                        <ellipse id="Ellipse_122" data-name="Ellipse 122" cx="0.462" rx="0.462"
+                                            transform="translate(0 3.698)" />
+                                        <ellipse id="Ellipse_123" data-name="Ellipse 123" cx="0.462" rx="0.462"
+                                            transform="translate(0 5.547)" />
+                                    </g>
+                                    <path id="Path_5908" data-name="Path 5908"
+                                        d="M318.737,406.8a.293.293,0,0,0-.293.293v3.523a.293.293,0,0,0,.586,0v-3.523A.293.293,0,0,0,318.737,406.8Z"
+                                        transform="translate(-315.393 -405.266)" />
+                                </g>
+                                <path id="Path_5909" data-name="Path 5909"
+                                    d="M84.41,12.556a2.69,2.69,0,0,0-1.489-.923l-.393-.086V4.783A4.785,4.785,0,0,0,75.671.472.293.293,0,0,0,75.926,1a4.2,4.2,0,0,1,6.017,3.783v.265a1.066,1.066,0,0,0-.487-.117h-.123a.566.566,0,0,0-.561-.461,4.091,4.091,0,0,1-1.883-.433,3.952,3.952,0,0,1-.752-.5.564.564,0,0,0-.781.052,2.861,2.861,0,0,1-.6.5,3.106,3.106,0,0,1-1.975.414.564.564,0,0,0-.609.425h-.131a1.066,1.066,0,0,0-.487.117V4.783a4.212,4.212,0,0,1,1.331-3.066.293.293,0,0,0-.4-.428,4.8,4.8,0,0,0-1.517,3.494v6.764l-.393.086A2.637,2.637,0,0,0,70.5,14.209v5.5a.293.293,0,0,0,.586,0V18.242h2.463v1.465a.293.293,0,0,0,.586,0V17.29a.293.293,0,0,0-.586,0v.366H71.086V14.209a2.064,2.064,0,0,1,1.61-2l2.782-.611a2.988,2.988,0,0,0,4.535,0l.171.038v3.107a.293.293,0,1,0,.586,0V11.76l2.024.445a2.019,2.019,0,0,1,.319.1v7.4a.293.293,0,1,0,.586,0V12.665a2.059,2.059,0,0,1,.705,1.544v5.5a.293.293,0,1,0,.586,0v-5.5A2.646,2.646,0,0,0,84.41,12.556ZM80.043,11a.535.535,0,0,1-.383-.627A3.6,3.6,0,0,0,81.343,7.33V7.076h.113a1.066,1.066,0,0,0,.487-.117v4.459Zm1.9-5v.006a.487.487,0,0,1-.487.484h-.113V5.516h.113A.487.487,0,0,1,81.943,6Zm-7.208-.909a3.68,3.68,0,0,0,2.325-.5A3.444,3.444,0,0,0,77.775,4a4.537,4.537,0,0,0,.848.56,4.662,4.662,0,0,0,2.134.5V7.33a3.011,3.011,0,0,1-6.022,0Zm-.7.426h.113V6.49h-.113a.487.487,0,0,1-.487-.484V6a.487.487,0,0,1,.487-.484Zm-.487,1.442a1.066,1.066,0,0,0,.487.117h.113V7.33a3.6,3.6,0,0,0,1.683,3.044.551.551,0,0,1-.337.614c-.04.013-1.9.42-1.945.43V6.959Zm2.491,4.38a1.082,1.082,0,0,0,.367-.671,3.6,3.6,0,0,0,2.678,0,1.082,1.082,0,0,0,.367.671,2.4,2.4,0,0,1-3.412,0Z"
+                                    transform="translate(-70.5 0)" />
+                            </svg>
+
+                        </span>
+                        Sister
+                    </label>
+                </li>
+            </ul>
+        </div>
+
+        <div class="filters">
+
+            <div class="filter-header">
+                <h4><span>Filter</span></h4>
+                <a href="javaScript:void(0)">Clear Filter</a>
+            </div>
+
+            <div class="filter-content">
+                <div class="filter-group">
+                    <p class="filter-title list-toggler active">Collections</p>
+
+                    <ul class="filter-menu">
+                        <li class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="Gold" checked>
+                            <label class="form-check-label" for="Gold">
+                                Gold
+                            </label>
+                        </li>
+                        <li class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="Diamond" checked>
+                            <label class="form-check-label" for="Diamond">
+                                Diamond
+                            </label>
+                        </li>
+                        <li class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="Platinum">
+                            <label class="form-check-label" for="Platinum">
+                                Platinum
+                            </label>
+                        </li>
+                        <li class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="Silver">
+                            <label class="form-check-label" for="Silver">
+                                Silver
+                            </label>
+                        </li>
+                        <li class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="Watches">
+                            <label class="form-check-label" for="Watches">
+                                Watches
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="filter-group">
+                    <p class="filter-title list-toggler active">Category</p>
+
+                    <ul class="filter-menu">
+                        <li class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="Rings" checked>
+                            <label class="form-check-label" for="Rings">
+                                Rings
+                            </label>
+                        </li>
+                        <li class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="Pendents" checked>
+                            <label class="form-check-label" for="Pendents">
+                                Pendents
+                            </label>
+                        </li>
+                        <li class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="Earrings">
+                            <label class="form-check-label" for="Earrings">
+                                Earrings
+                            </label>
+                        </li>
+                        <li class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="Bangles">
+                            <label class="form-check-label" for="Bangles">
+                                Bangles
+                            </label>
+                        </li>
+                        <li class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="Chain">
+                            <label class="form-check-label" for="Chain">
+                                Chain
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="filter-group">
+                    <p class="filter-title list-toggler active">Price</p>
+
+                    <ul class="filter-menu">
+                        <li class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="price_0_9999">
+                            <label class="form-check-label" for="price_0_9999">
+                                ₹ 0 - ₹ 9,999
+                            </label>
+                        </li>
+                        <li class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="price_10000_19999" checked>
+                            <label class="form-check-label" for="price_10000_19999">
+                                ₹ 10,000 - ₹ 19,999
+                            </label>
+                        </li>
+                        <li class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="price_20000_29999">
+                            <label class="form-check-label" for="price_20000_29999">
+                                ₹ 20,000 - ₹ 29,999
+                            </label>
+                        </li>
+                        <li class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="price_30000_39999">
+                            <label class="form-check-label" for="price_30000_39999">
+                                ₹ 30,000 - ₹ 39,999
+                            </label>
+                        </li>
+                        <li class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="price_40000_49999">
+                            <label class="form-check-label" for="price_40000_49999">
+                                ₹ 40,000 - ₹ 49,999
+                            </label>
+                        </li>
+                        <li class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="price_0_9999">
+                            <label class="form-check-label" for="price_0_9999">
+                                ₹ 0 - ₹ 9,999
+                            </label>
+                        </li>
+                        <li class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="price_10000_19999" checked>
+                            <label class="form-check-label" for="price_10000_19999">
+                                ₹ 10,000 - ₹ 19,999
+                            </label>
+                        </li>
+                        <li class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="price_20000_29999">
+                            <label class="form-check-label" for="price_20000_29999">
+                                ₹ 20,000 - ₹ 29,999
+                            </label>
+                        </li>
+                        <li class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="price_30000_39999">
+                            <label class="form-check-label" for="price_30000_39999">
+                                ₹ 30,000 - ₹ 39,999
+                            </label>
+                        </li>
+                        <li class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="price_40000_49999">
+                            <label class="form-check-label" for="price_40000_49999">
+                                ₹ 40,000 - ₹ 49,999
+                            </label>
+                        </li>
+                        <li class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="price_0_9999">
+                            <label class="form-check-label" for="price_0_9999">
+                                ₹ 0 - ₹ 9,999
+                            </label>
+                        </li>
+                        <li class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="price_10000_19999" checked>
+                            <label class="form-check-label" for="price_10000_19999">
+                                ₹ 10,000 - ₹ 19,999
+                            </label>
+                        </li>
+                        <li class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="price_20000_29999">
+                            <label class="form-check-label" for="price_20000_29999">
+                                ₹ 20,000 - ₹ 29,999
+                            </label>
+                        </li>
+                        <li class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="price_30000_39999">
+                            <label class="form-check-label" for="price_30000_39999">
+                                ₹ 30,000 - ₹ 39,999
+                            </label>
+                        </li>
+                        <li class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="price_40000_49999">
+                            <label class="form-check-label" for="price_40000_49999">
+                                ₹ 40,000 - ₹ 49,999
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="filter-group">
+                    <p class="filter-title list-toggler active">Gold Purity</p>
+
+                    <ul class="filter-menu">
+                        <li class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="18_KT">
+                            <label class="form-check-label" for="18_KT">
+                                18 KT
+                            </label>
+                        </li>
+                        <li class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="22_KT">
+                            <label class="form-check-label" for="22_KT">
+                                22 KT
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="filter-group">
+                    <p class="filter-title list-toggler active">Occasion-Jewellery </p>
+
+                    <ul class="filter-menu">
+                        <li class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="Daily_Wear">
+                            <label class="form-check-label" for="Daily_Wear">
+                                Daily Wear
+                            </label>
+                        </li>
+                        <li class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="Official_Wear">
+                            <label class="form-check-label" for="Official_Wear">
+                                Official Wear
+                            </label>
+                        </li>
+                        <li class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="Casual_Wear">
+                            <label class="form-check-label" for="Casual_Wear">
+                                Casual Wear
+                            </label>
+                        </li>
+                        <li class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="Party_Wear">
+                            <label class="form-check-label" for="Party_Wear">
+                                Party Wear
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="filter-group">
+                    <p class="filter-title list-toggler active">Metal Color</p>
+
+                    <ul class="filter-menu">
+                        <li class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="Rose">
+                            <label class="form-check-label" for="Rose">
+                                Rose
+                            </label>
+                        </li>
+                        <li class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="Yellow">
+                            <label class="form-check-label" for="Yellow">
+                                Yellow
+                            </label>
+                        </li>
+                        <li class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="White">
+                            <label class="form-check-label" for="White">
+                                White
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="filter-group">
+                    <p class="filter-title list-toggler">Gender</p>
+
+                    <ul class="filter-menu">
+                        <li class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="Male">
+                            <label class="form-check-label" for="Male">
+                                Male
+                            </label>
+                        </li>
+                        <li class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="Female">
+                            <label class="form-check-label" for="Female">
+                                Female
+                            </label>
+                        </li>
+                        <li class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="Transgender">
+                            <label class="form-check-label" for="Transgender">
+                                Transgender
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="filter-group">
+                    <p class="filter-title list-toggler">Gift by Occasion </p>
+
+                    <ul class="filter-menu">
+                        <li class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="Wedding">
+                            <label class="form-check-label" for="Wedding">
+                                Wedding
+                            </label>
+                        </li>
+                        <li class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="Wedding_Anniversary">
+                            <label class="form-check-label" for="Wedding_Anniversary">
+                                Wedding Anniversary
+                            </label>
+                        </li>
+                        <li class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="Birthday">
+                            <label class="form-check-label" for="Birthday">
+                                Birthday Gift
+                            </label>
+                        </li>
+                        <li class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="Wedding_Gift">
+                            <label class="form-check-label" for="Wedding_Gift">
+                                Wedding Gift
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="spotlight">
+        <div class="top-panel">
+            <p><span class="d-none d-sm-inline">Showing</span> <span class="current">1 – 24</span><span
+                    class="d-none d-sm-inline"> products</span> of <span class="total">328</span> products</p>
+            <div class="sorter">
+                Sort by /
+                <select name="" id="">
+                    <option>New to old</option>
+                    <option>Top Collection</option>
+                    <option>Purity</option>
+                    <option>Relevance</option>
+                    <option>old to New</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="product-list-grid">
+
+            <div class="item">
+                <a href="javaScript:void(0)">
+                    <div class="thumbnail">
+                        <div class="image">
+                            <img src="images/products/1.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="text">
+                        <h5>White gold ring with diamonds - heart, infinity</h5>
+                        <span class="ratings">4.3</span>
+                        <p class="price">₹ 29589.25</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="javaScript:void(0)">
+                    <div class="thumbnail">
+                        <div class="image">
+                            <img src="images/products/2.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="text">
+                        <h5>Silver ring with infinity</h5>
+                        <span class="ratings">4.3</span>
+                        <p class="price">₹ 29589.25</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="javaScript:void(0)">
+                    <div class="thumbnail">
+                        <div class="image">
+                            <img src="images/products/3.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="text">
+                        <h5>Silver ring with infinity</h5>
+                        <span class="ratings">4.3</span>
+                        <p class="price">₹ 29589.25</p>
+                    </div>
+                </a>
+            </div>
+
+
+            <div class="item">
+                <a href="javaScript:void(0)">
+                    <div class="thumbnail">
+                        <div class="image">
+                            <img src="images/products/1.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="text">
+                        <h5>White gold ring with diamonds - heart, infinity</h5>
+                        <span class="ratings">4.3</span>
+                        <p class="price">₹ 29589.25</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="javaScript:void(0)">
+                    <div class="thumbnail">
+                        <div class="image">
+                            <img src="images/products/2.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="text">
+                        <h5>Silver ring with infinity</h5>
+                        <span class="ratings">4.3</span>
+                        <p class="price">₹ 29589.25</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="javaScript:void(0)">
+                    <div class="thumbnail">
+                        <div class="image">
+                            <img src="images/products/3.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="text">
+                        <h5>Silver ring with infinity</h5>
+                        <span class="ratings">4.3</span>
+                        <p class="price">₹ 29589.25</p>
+                    </div>
+                </a>
+            </div>
+
+
+            <div class="item">
+                <a href="javaScript:void(0)">
+                    <div class="thumbnail">
+                        <div class="image">
+                            <img src="images/products/1.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="text">
+                        <h5>White gold ring with diamonds - heart, infinity</h5>
+                        <span class="ratings">4.3</span>
+                        <p class="price">₹ 29589.25</p>
+                    </div>
+                </a>
+            </div>
+
+        
+        <div class="pagnation mt-5">
+            <p>Page <span class="current">1</span> of <span class="total">10</span> </p>
+            <div class="jumbers">
+                <button class="btn btn-primary d-none">Previous</button>
+                <ul>
+                    <li><a href="javaScript:void(0)" class="active">1</a></li>
+                    <li><a href="javaScript:void(0)">2</a></li>
+                    <li><a href="javaScript:void(0)">3</a></li>
+                    <li><a href="javaScript:void(0)">4</a></li>
+                    <li><a href="javaScript:void(0)">5</a></li>
+                </ul>
+                <button class="btn btn-primary">Next</button>
+            </div>
+        </div>
+    </section>
+
+
+</main>
+
+
+    <footer class="siteFooter">
+        <div class="container">
+            <div class="wrapper">
+
+                <div class="group">
+
+                    <div class="logo">
+                        <a href="javaScript:void(0)">
+                            <img src="images/logo.png" alt="" class="img-fluid">
+                        </a>
+                    </div>
+
+                    <ul class="social">
+                        <li>
+                            <a href="javaScript:void(0)">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javaScript:void(0)">
+                                <i class="fab fa-pinterest-p"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javaScript:void(0)">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javaScript:void(0)">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="cards">
+                        <img src="images/cards.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+
+                <div class="group">
+                    <p class="title list-toggler toggle-mobile">Overview</p>
+                    <ul class="menu">
+                        <li><a href="javaScript:void(0)">About Josco</a></li>
+                        <li><a href="javaScript:void(0)">Create Account</a></li>
+                        <li><a href="javaScript:void(0)">News And Offers</a></li>
+                        <li><a href="javaScript:void(0)">Privacy Policy</a></li>
+                        <li><a href="javaScript:void(0)">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+
+                <div class="group">
+                    <p class="title list-toggler toggle-mobile">Useful Links</p>
+                    <ul class="menu">
+                        <li><a href="javaScript:void(0)">Advance Booking</a></li>
+                        <li><a href="javaScript:void(0)">Gold Scheme</a></li>
+                        <li><a href="javaScript:void(0)">3D Try</a></li>
+                        <li><a href="javaScript:void(0)">2d Try</a></li>
+                        <li><a href="javaScript:void(0)">Customization</a></li>
+                    </ul>
+                </div>
+
+                <div class="group">
+                    <p class="title list-toggler toggle-mobile">Let Us Help You</p>
+                    <ul class="menu">
+                        <li><a href="javaScript:void(0)">Ring Size Guide</a></li>
+                        <li><a href="javaScript:void(0)">Find Gems Stone</a></li>
+                        <li><a href="javaScript:void(0)">Real time Inspection</a></li>
+                        <li><a href="javaScript:void(0)">Design Consultation </a></li>
+                        <li><a href="javaScript:void(0)">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <div class="group">
+                    <p class="title list-toggler toggle-mobile">Contact Us</p>
+                    <ul class="menu">
+                        <li><a href="javaScript:void(0)"><span class="icon"><i class="fal fa-phone-alt"></i></span> Tel: 0484 -
+                                2426333</a></li>
+                        <li><a href="javaScript:void(0)"><span class="icon"><i class="fal fa-envelope"></i></span> office@joscogroup.com</a></li>
+                    </ul>
+
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Your Email Address">
+                        <button class="input-group-text">
+                            <img src="images/icons/send.svg" alt="" class="img-fluid">
+                        </button>
+                    </div>
+                    <span class="form-text">
+                        We promise only send the good things
+                    </span>
+                </div>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container wrap">
+                © 2021 Josco Group All Rights Reserved. <span class="powered">Powered by <a href="javaScript:void(0)" class="webcastle"><img
+                    src="images/webcastle.png" alt="webcastle"></a></span>
+            </div>
+        </div>
+    </footer>
+    <!-- <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/custom.js"></script> -->
+    <script src="js/bundle.js"></script>
+</body>
+
+</html>

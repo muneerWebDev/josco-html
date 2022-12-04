@@ -1,0 +1,40 @@
+// fonts 
+@import '../fonts/El_Messiri/stylesheet';
+@import '../fonts/Nunito_Sans/stylesheet';
+
+// mixins
+@import 'mixins';
+@import 'animations';
+
+//variables
+@import 'custom-variables';
+
+// plugins
+@import 'bootstrap/bootstrap';
+@import 'plugins/fontawesome.min';
+@import 'plugins/slick';
+@import 'plugins/select2.min';
+
+//general styles
+@import 'elements';
+@import 'global';
+
+//pages
+@import 'pages/home';
+@import 'pages/product-listing';
+@import 'pages/product-detail';
+@import 'pages/cart-and-checkout';
+@import 'pages/my-account';
+@import 'pages/about';
+@import 'pages/contact';
+@import 'pages/news-and-promo';
+@import 'pages/ringsize';
+@import 'pages/faq';
+@import 'pages/compare';
+@import 'pages/know_your_stone';
+@import 'pages/advanced-booking';
+@import 'pages/inspection-page';
+@import 'pages/coming-soon';
+@import 'pages/design-ring';
+@import 'pages/loyalty';
+@import 'pages/popups';

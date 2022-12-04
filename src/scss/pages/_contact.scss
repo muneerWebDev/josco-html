@@ -1,0 +1,59 @@
+.contact-page {
+    padding-bottom: 9.5rem;
+
+    .main-wrapper {
+        padding-top: 1rem;
+    }
+    .contact-info {
+        display: flex;
+        @extend .light-bg;
+        justify-content: space-between;
+
+        @include media-breakpoint-down(sm) {
+            flex-direction: column-reverse;
+        }
+
+        .left-sec {
+            padding: 5.5rem 6rem;
+            p {
+                margin-bottom: 3.8rem;
+                &:not(.title) {
+                    display: flex;
+                    &::before {
+                        @include fontawesome("\f005");
+                        width: 3.8rem;
+                        display: inline-block;
+                        line-height: 1.5;
+                        color: $gray-500;
+                        font-weight: $font-weight-light;
+                    }
+                }
+
+                &.address:before {
+                    content: "\f3c5";
+                    line-height: 1.9;
+                }
+
+                &.phone::before {
+                    content: "\f879";
+                    opacity: .8;
+                }
+
+                &.mail::before {
+                    content: "\f0e0";
+                    opacity: .8;
+                }
+            }
+        }
+
+        .image {
+            img {
+                width: 100%;
+            }
+
+            @include media-breakpoint-up(sm) {
+                border: 1.3rem solid $white;
+            }
+        }
+    }
+}

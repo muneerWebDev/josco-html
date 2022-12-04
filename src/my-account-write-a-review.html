@@ -1,0 +1,169 @@
+@@include('template-parts/header.html')
+
+<main class="my-account container">
+    <div class="account-content">
+
+        <div class="account-main-content">
+            <h4 class="page-title">Review This Product</h4>
+        </div>
+
+        <section class="review-product-sec">
+
+            <div class="product-item">
+
+                <div class="product-list-item">
+
+                    <a title="Remove from wishlist" href="#wishlist" class="wishlist active">
+                        <svg width="13.787" height="13.09">
+                            <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
+                                d="M4.187.5C2.152.5.503 1.962.503 4.621s3.438 5.22 6.386 7.968c2.947-2.748 6.4-5.276 6.4-7.968S11.64.5 9.605.5a3.88 3.88 0 00-2.717 1.649A3.874 3.874 0 004.188.5z" />
+                        </svg>
+                    </a>
+
+                    <a href="javaScript:void(0)" class="product-details">
+                        <div class="thumbnail">
+                            <div class="image">
+                                <img src="images/products/2.jpg" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="text">
+                            <h5 title="Silver ring with infinity">Diamond Stackable Ring in 14k Yellow Gold</h5>
+                        </div>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="write-review-sec">
+
+                <div class="star-rating">
+                    <a href="javaScript:void(0)" class="active">
+
+                        <svg width="24.408" height="23.261">
+                            <path fill="none" stroke="#9f9f9f" stroke-linecap="round" stroke-linejoin="round"
+                                d="M12.2.5l3.616 7.327 8.087 1.182-5.852 5.7 1.381 8.052-7.233-3.8-7.233 3.8 1.381-8.052L.5 9.009l8.087-1.182z"
+                                data-name="Icon feather-star" />
+                        </svg>
+                    </a>
+                    <a href="javaScript:void(0)" class="active">
+
+                        <svg width="24.408" height="23.261">
+                            <path fill="none" stroke="#9f9f9f" stroke-linecap="round" stroke-linejoin="round"
+                                d="M12.2.5l3.616 7.327 8.087 1.182-5.852 5.7 1.381 8.052-7.233-3.8-7.233 3.8 1.381-8.052L.5 9.009l8.087-1.182z"
+                                data-name="Icon feather-star" />
+                        </svg>
+                    </a>
+                    <a href="javaScript:void(0)" class="active">
+
+                        <svg width="24.408" height="23.261">
+                            <path fill="none" stroke="#9f9f9f" stroke-linecap="round" stroke-linejoin="round"
+                                d="M12.2.5l3.616 7.327 8.087 1.182-5.852 5.7 1.381 8.052-7.233-3.8-7.233 3.8 1.381-8.052L.5 9.009l8.087-1.182z"
+                                data-name="Icon feather-star" />
+                        </svg>
+                    </a>
+                    <a href="javaScript:void(0)" class="active">
+
+                        <svg width="24.408" height="23.261">
+                            <path fill="none" stroke="#9f9f9f" stroke-linecap="round" stroke-linejoin="round"
+                                d="M12.2.5l3.616 7.327 8.087 1.182-5.852 5.7 1.381 8.052-7.233-3.8-7.233 3.8 1.381-8.052L.5 9.009l8.087-1.182z"
+                                data-name="Icon feather-star" />
+                        </svg>
+                    </a>
+                    <a href="javaScript:void(0)">
+
+                        <svg width="24.408" height="23.261">
+                            <path fill="none" stroke="#9f9f9f" stroke-linecap="round" stroke-linejoin="round"
+                                d="M12.2.5l3.616 7.327 8.087 1.182-5.852 5.7 1.381 8.052-7.233-3.8-7.233 3.8 1.381-8.052L.5 9.009l8.087-1.182z"
+                                data-name="Icon feather-star" />
+                        </svg>
+                    </a>
+                    <span class="rated-value">4.0</span>
+                </div>
+
+                <div class="general-form form">
+
+
+                    <div class="input-group golden">
+                        <input type="text" class="form-control" id="review-title" aria-describedby="review title">
+                        <label for="review-title" class="form-label">Title</label>
+                    </div>
+
+                    <div class="input-group golden">
+                        <textarea class="form-control" id="review-desc" aria-describedby="Review Description"> </textarea>
+                        
+                        <label for="review-desc" class="form-label">Description</label>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </div>
+</main>
+
+<!-- remove address alert popup -->
+<div class="modal fade" id="deleteReviewModal" tabindex="-1" aria-labelledby="deleteReviewModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content text-center">
+            <div class="modal-body">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                <div class="modal-icon">
+                    <svg width="183" height="97">
+                        <g data-name="Group 5786">
+                            <g fill="#fff" stroke="#cc9d00" data-name="Rectangle 271">
+                                <path stroke="none" d="M119.5 0h12v10h-12z" />
+                                <path fill="none" d="M120 .5h11v9h-11z" />
+                            </g>
+                            <g fill="#fff" stroke="#cc9d00" data-name="Rectangle 273">
+                                <path stroke="none" d="M133.5 87h7v6h-7z" />
+                                <path fill="none" d="M134 87.5h6v5h-6z" />
+                            </g>
+                            <g fill="#fff" stroke="#cc9d00" data-name="Rectangle 272">
+                                <path stroke="none" d="M10 63h6v5h-6z" />
+                                <path fill="none" d="M10.5 63.5h5v4h-5z" />
+                            </g>
+                            <path fill="none" stroke="#cc9d00" d="M151 55.5h26" data-name="Line 76" />
+                            <path fill="none" stroke="#cc9d00" d="M0 24.5h26" data-name="Line 78" />
+                            <path fill="none" stroke="#cc9d00" d="M180 55.5h3" data-name="Line 77" />
+                            <path fill="none" stroke="#cc9d00" d="M29 24.5h3" data-name="Line 79" />
+                            <path fill="none" stroke="#cc9d00" d="M29 15.5h15.5" data-name="Line 80" />
+                            <g data-name="Group 5788">
+                                <g fill="none" stroke="#cc9d00" data-name="Ellipse 81" transform="translate(47.5 20)">
+                                    <circle cx="38.5" cy="38.5" r="38.5" stroke="none" />
+                                    <circle cx="38.5" cy="38.5" r="38" />
+                                </g>
+                                <g fill="#cc9d00" data-name="Group 5787">
+                                    <path
+                                        d="M79 72.106h13.263a2.7 2.7 0 002.7-2.7V51.139h1.18a.531.531 0 00.562-.562v-1.293a2.075 2.075 0 00-2.08-2.08h-4.779v-1.461A1.751 1.751 0 0088.1 44h-5a1.751 1.751 0 00-1.743 1.743V47.2H76.58a2.075 2.075 0 00-2.08 2.08v1.293a.531.531 0 00.562.562h1.18v18.273A2.748 2.748 0 0079 72.106zm14.84-2.7a1.571 1.571 0 01-1.574 1.574H79a1.571 1.571 0 01-1.574-1.574V51.139h16.47v18.269zM82.482 45.743a.624.624 0 01.618-.618h5a.624.624 0 01.618.618V47.2h-6.18v-1.457zm-6.858 3.541a.947.947 0 01.956-.956h17.987a.947.947 0 01.956.956v.731h-19.9z"
+                                        data-name="Path 5854" />
+                                    <path
+                                        d="M90.014 68.281a.531.531 0 00.562-.562V54.343a.562.562 0 10-1.124 0v13.378a.563.563 0 00.562.56zm-4.384 0a.531.531 0 00.562-.562V54.343a.562.562 0 00-1.124 0v13.378a.531.531 0 00.559.56zm-4.441 0a.531.531 0 00.562-.562V54.343a.562.562 0 00-1.124 0v13.378a.531.531 0 00.562.56z"
+                                        data-name="Path 5855" />
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+
+                </div>
+                <div class="text">
+                    <p class="title">Delete Review</p>
+                    <p>Are you sure? <br>
+                        You want to remove</p>
+                </div>
+
+                <div class="btn-wrap pt-4">
+
+                    <a href="javaScript:void(0)" class="regular-anchor me-2" data-bs-dismiss="modal">Cancel</a>
+                    <button type="button" class="btn btn-primary ms-4" data-bs-dismiss="modal">Delete</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+@@include('template-parts/footer.html')

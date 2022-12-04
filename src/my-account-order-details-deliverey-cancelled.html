@@ -1,0 +1,86 @@
+@@include('template-parts/header.html')
+
+<main class="my-account container">
+    <div class="page-title">
+        <h4>My Order</h4>
+    </div>
+    <div class="account-content">
+
+        <div class="account-sidebar order-details">
+            <div class="delivery-address">
+                <h4>Delivery Address</h4>
+                <address>
+                    <div class="wrap">
+                        <p class="name">Varun Murali</p>
+                        <p>House Number 12</p>
+                        <p>Vengoor</p>
+                        <p>Ernakulam-789589</p>
+                        <p>Kerala</p>
+                        <p>Mobile Number : 789895689</p>
+                    </div>
+                    <div class="addr-type">Office</div>
+                </address>
+            </div>
+            <div class="delivery-details">
+                <h4>Delivery details</h4>
+                <p>Order No: <span class="order-no">248901896547</span></p>
+            </div>
+            <div class="payment-details">
+                <h4>Payment Details</h4>
+                <p>Total Amount: <span class="order-no">₹ 27,400.00</span></p>
+            </div>
+        </div>
+
+        <div class="account-main-content pt-0">
+            <div class="order-review-table past-orders-table">
+                <div class="table-responsive">
+                    <div class="divTable table">
+
+                        <div class="order-item divTableRow">
+
+                            <div class="divTableCell product-image-col">
+                                <div class="product-image">
+                                    <img src="images/products/1.jpg" alt="" class="img-fluid">
+                                </div>
+                            </div>
+
+                            <div class="divTableCell product-name-col">
+                                <div>
+                                    <p class="product-name regular"> Diamond Stackable Ring in 14k Yellow
+                                        Gold</p>
+                                    <p class="price">₹ 30,140.25</p>
+                                </div>
+                            </div>
+                            <div class="divTableCell product-actions-col text-end">
+
+                                <a href="javaScript:void(0)" class="btn btn-secondary">Reorder</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="order-status-illustration">
+                <ul class="steps cancelled">
+                    <li class="step completed">Ordered <span class="date">Thu, 8th Oct</span></li>
+                    <li class="step">Cancelled <span class="date">Sat, 18th Oct</span></li>
+                </ul>
+                <div class="current-status">
+                    <div class="status-short pb-3 pb-sm-0">
+                        <p> Item cancelled by you </p>
+                    </div>
+                    <div class="order-status cancelled">
+                        <div class="wrap">
+                            <p>Cancelled</p>
+                            <p class="small">As per your request, your item has been cancelled</p>
+                            <p class="small">Fri, 26th Feb 5:17 pm</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</main>
+
+@@include('template-parts/footer.html')

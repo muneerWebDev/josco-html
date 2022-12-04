@@ -1,0 +1,89 @@
+@@include('template-parts/header.html')
+
+<main class="design-ring container pt-0 border-0">
+
+    <section class="title-banner" style="background-image:url('images/design-jwellery.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1>Customize Your Jewellery</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="main-content pb-5 mb-5">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-8">
+                    <div class="upload-design-sec mb-5">
+                        <div class="text-wrap">
+                            <h3 class="mb-0">Upload Your Design</h3>
+                            <p>If you have any design. upload here</p>
+                            <label for="design-input" class="btn btn-primary mt-0">Upload</label>
+                            <input type="file" id="design-input" class="d-none">
+                        </div>
+                        <div class="image">
+
+                            <img src="images/image-placeholder.jpg" alt="" class="img-fluid placeholder">
+                        </div>
+                    </div>
+
+                    <p class="py-5 mt-5 mb-0"><b>Fill Your Detail, Our Team Will Contact you soon</b></p>
+
+
+                    <div class="form form-aside-box type-3 pb-5 mb-5">
+
+                        <div class="input-group golden">
+                            <input type="text" class="form-control" id="name" aria-describedby="name">
+                            <label for="name" class="form-label">Name*</label>
+                        </div>
+
+                        <div class="input-group golden">
+                            <input type="text" class="form-control" id="email" aria-describedby="email">
+                            <label for="email" class="form-label">Email*</label>
+                        </div>
+
+                        <div class="input-group golden">
+                            <input type="text" class="form-control" id="Phone" aria-describedby="Phone">
+                            <label for="Phone" class="form-label">Phone*</label>
+                        </div>
+
+                        <div class="input-group golden">
+                            <textarea name="" id="Message" class="w-100" rows="1"></textarea>
+                            <label for="Message" class="form-label">Message</label>
+                        </div>
+
+                        <div class="input-group golden">
+                            <a href="" class="btn btn-primary ms-auto">Submit</a>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 mt-3 mt-md-0 pt-3 mt-md-0">
+                    <div class="search-sidebar">
+
+                        <div class="input-group mb-5">
+                            <span class="input-group-text" id="basic-addon1"><i class="far fa-search"></i></span>
+                            <input type="text" class="form-control" placeholder="Search product" aria-label="search"
+                                aria-describedby="basic-addon1">
+                        </div>
+
+                        <div class="search-results">
+                            <div class="item">
+                                <img src="images/image-placeholder.jpg" alt="" class="img-fluid placeholder w-100">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+@@include('template-parts/footer.html')

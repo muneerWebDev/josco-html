@@ -1,0 +1,80 @@
+@@include('template-parts/header.html')
+
+<main class="ringsize-page">
+
+
+
+    <section class="banner" style="background-image: url(images/banner-ringsize.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-play-outlined modal-video-trigger" data-bs-toggle="modal"
+                        data-bs-target="#ringsizeVideo">
+                        <i class="fal fa-play"></i>
+                    </button>
+
+                    <h2 class="text">
+                        Please Watch The Video To Know The
+                        Measurement Of Your Ring Size
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="container">
+        <div class="mini-container">
+            <div class="page-title mt-3">
+                <h2 class="pt-5 mt-5">Find your ring size</h2>
+            </div>
+            <p>Find your ring size</p>
+
+            <div class="form ringsize-form mb-5 pb-3">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="input-group">
+                            <input type="text" placeholder="Type Here" class="form-control" id="ringsizeInput"
+                                aria-describedby="ringsizeInput">
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="input-group">
+                            <input type="text" value="Your Ring Size" class="form-control" id="ringsizeOutput"
+                                aria-describedby="ringsizeOutput" disabled>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <p>
+                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+                deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non
+                provident, At vero eos et accusamus
+            </p>
+        </div>
+
+    </div>
+
+
+</main>
+
+<!-- Modal -->
+<div class="modal fade modal-video" id="ringsizeVideo" tabindex="-1" aria-labelledby="ringsizeVideo" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header p-0">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <video>
+                <source src="videos/swapnangal.mp4" type="video/mp4">
+            </video>
+
+            <div class="playCursor"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+@@include('template-parts/footer.html')

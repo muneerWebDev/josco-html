@@ -1,0 +1,37 @@
+.newsAndPromo-page{
+    padding-top: 0 !important;
+    .carousel-item {
+        padding: 6rem 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        .text-wrapper{
+            display: inline-block;
+            background: transparentize($white, .19);
+            text-align: center;
+            @include media-breakpoint-up(md){
+                min-width: 52.5rem;
+            }
+            @include media-breakpoint-down(sm){
+                width: 100%;
+            }
+            .h1{
+                color: $primary;
+                padding: 4.5rem 2rem 0 2rem;
+                margin-bottom: .85rem;
+                &+.h1{
+                    color: $gold;
+                    padding: 0 2rem;
+                }
+            }
+
+            .title{
+                border-top: 2px solid $gray-450;
+                padding: 2rem;
+                color: $black;
+                font-weight: $font-weight-semibold2;
+            }
+        }
+    }   
+
+}

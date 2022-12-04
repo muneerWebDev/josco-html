@@ -1,0 +1,108 @@
+// font family
+$nunito-sans: "Nunito Sans", sans-serif;
+$el-missiri: "El Messiri";
+
+/*** overriding bootstrap variables  **/
+
+//typography
+$font-weight-light: 200;
+$font-weight-regular: 400;
+$font-weight-semibold: 600;
+$font-weight-semibold2: 700;
+$font-weight-bold: 800;
+$line-height-base: 1;
+$font-family-base: $nunito-sans;
+$font-weight-base: $font-weight-regular;
+
+//colors
+$search-box-shadow: 0 0 1.5rem rgba(44, 44, 44, 0.15);
+$search-box-shadow-strong: 0 0 1.5rem 9px rgba(44, 44, 44, 0.15);
+$card-box-shadow: 0 0 1.5rem rgba(44, 44, 44, 0.1);
+$product-box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.1);
+$enable-responsive-font-sizes: false;
+$gray-200: #fbfbfb;
+$gray-300: #ececec;
+$gray-350: #efefef;
+$gray-380: #e7e7e7;
+$gray-400: #f6f6f6;
+$gray-450: #d4d4d4;
+$gray-500: #2c2c2c;
+$gray-600: rgba(0, 0, 0, 0.4);
+$gray-700: #0c0c0c;
+
+$red: #c41229;
+$blood: #950E1F;
+$light-red: #F6F6F6;
+$black: #000;
+$white: #fff;
+$gold: #cc9d00;
+$gray: $gray-600;
+$gray-active-bg: $gray-400;
+
+$orange: #EE9703;
+$green: #08953C;
+$light-green: #61BB82;
+$danger: #EE3B03;
+
+$primary: $red;
+$body-color: $black;
+$border-color: $gray-300;
+$main-border-dark: $gray-450;
+$dotted-border: "data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%23D4D4D4FF' stroke-width='4' stroke-dasharray='1%2c 8' stroke-dashoffset='22' stroke-linecap='square'/%3e%3c/svg%3e";
+
+//font sizes
+$enable-rfs: false;
+$font-size-root: 62.5%;
+$font-size-small: 1.2rem;
+$font-size-medium: 1.4rem;
+$font-size-base: 1.6rem;
+$font-size-large: 1.8rem;
+$font-size-XL: 2.2rem;
+
+$headings-font-family: $el-missiri;
+$headings-font-weight: $font-weight-bold;
+
+// $headings-color: $black;
+$h1-font-size: 4.8rem;
+$h2-font-size: 3.6rem;
+$h3-font-size: 2.4rem;
+$h4-font-size: 1.8rem;
+$h5-font-size: $font-size-base;
+
+//container-width
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 985px,
+  xxl: 1256px,
+);
+
+//grid-breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1325px,
+);
+
+$grid-gutter-width: 30px;
+$btn-close-color: $white;
+$table-group-separator-color: $main-border-dark;
+//navbar
+$nav-link-transition: 0.3s;
+$nav-link-font-weight: $font-weight-semibold;
+$nav-link-color: $black;
+$nav-link-hover-color: $primary;
+
+//input focus
+$input-btn-focus-box-shadow: $card-box-shadow;
+
+// nav pill active bg
+$nav-pills-link-active-bg: $gray-active-bg;
+$nav-pills-link-active-color: $red;
+
+// custom variables
+$containerOffsetWithGutters: calc(var(--containerOffset) + var(--bs-gutter-x, 15px));

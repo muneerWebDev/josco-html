@@ -1,0 +1,17 @@
+.design-ring{
+
+    .placeholder{
+        width: 100%;
+    }
+    .upload-design-sec{
+        @include media-breakpoint-up(md){
+            display: flex;
+        justify-content: space-between;
+        }
+        border: 1px solid $gray;
+        padding: .6rem;
+        .text-wrap{
+            padding: 1.5rem 3rem;
+        }
+    }
+}

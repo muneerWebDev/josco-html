@@ -1,0 +1,1226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Josco Jwellery Website">
+    <link rel="preload" href="style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <title>Josco Jewellers</title>
+</head>
+
+<body data-scrollbar>
+    <!-- main site header  -->
+    <header class="siteHeader">
+        <div class="container">
+            <nav class="navbar">
+                <!-- logo  -->
+                <a class="navbar-brand" aria-label="Josco Jwellers Logo" href="javaScript:void(0)"><img src="images/logo.png" alt="" class="img-fluid"></a>
+
+                <!-- outside search bar  -->
+                <form class="header-search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                </form>
+
+                <!-- secondary navbar  -->
+                <ul class="secondary-nav d-flex">
+
+                    <li class="account nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="javaScript:void(0)" id="accDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+
+                            <i class="icon">
+
+                                <svg width="21.548" height="21.666">
+                                    <path stroke="#000" stroke-width=".1"
+                                        d="M14.753 11.594a6.464 6.464 0 10-7.994 0 10.774 10.774 0 00-6.7 8.813 1.084 1.084 0 102.155.237 8.619 8.619 0 0117.131 0 1.077 1.077 0 001.077.959h.119a1.077 1.077 0 00.948-1.185 10.774 10.774 0 00-6.734-8.824zm-4-.765a4.31 4.31 0 114.31-4.31 4.31 4.31 0 01-4.307 4.31z"
+                                        data-name="Path 69" />
+                                </svg>
+                            </i>
+                            <span class="username">Varun Murali</span>
+                        </a>
+
+                        <ul class="dropdown-menu" aria-labelledby="accDropdown">
+                            <li><a class="dropdown-item" href="javaScript:void(0)">
+                                    <span class="icon">
+
+
+                                        <svg width="13.09" height="13.09">
+                                            <path fill="#000000"
+                                                d="M6.545 5.511A2.756 2.756 0 119.3 2.756a2.756 2.756 0 01-2.755 2.755zm0-4.823a2.067 2.067 0 102.067 2.067A2.067 2.067 0 006.545.689zm6.545 12.4h-.69v-.344a5.856 5.856 0 10-11.712 0v.344H0v-.344a6.545 6.545 0 1113.09 0z"
+                                                data-name="Path 5802" />
+                                        </svg>
+
+                                    </span>
+
+                                    My Account</a></li>
+                            <li><a class="dropdown-item" href="javaScript:void(0)">
+
+                                    <span class="icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12.939" height="11.472"
+                                            viewBox="0 0 12.939 11.472">
+                                            <path id="rect20596"
+                                                d="M7.969,4.987h-3.7A.269.269,0,0,0,4,5.256V7.74a.269.269,0,0,0,.269.269h.269v8.174a.269.269,0,0,0,.269.269h11.3a.269.269,0,0,0,.269-.269V8.009h.294a.269.269,0,0,0,.269-.269V5.256a.269.269,0,0,0-.269-.269H12.944C9.986,5,11.439,4.972,7.969,4.987Zm2.044,0h0Zm2.338,0H10.9S11,4.972,12.352,4.987Zm-7.814.538H9.381V7.471H4.538Zm5.381,0H11V15.914H9.919Zm1.614,0H16.4V7.471H11.533ZM5.076,8.009h4.3v7.905h-4.3Zm6.457,0h4.3v7.905h-4.3ZM9.541,16.428l.008,0Zm1.834,0-.012,0,.012,0Z"
+                                                transform="translate(-4 -4.98)" />
+                                        </svg>
+
+                                    </span>
+
+                                    Orders</a></li>
+                            <li>
+
+                            <li><a class="dropdown-item" href="javaScript:void(0)">
+
+                                    <span class="icon">
+
+
+                                        <svg width="15.005" height="12.79">
+                                            <path fill="none" stroke="#000" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width=".7"
+                                                d="M4.472.35A3.9 3.9 0 00.351 4.471c0 2.66 3.847 5.22 7.144 7.968 3.3-2.748 7.161-5.276 7.161-7.968A3.879 3.879 0 0010.535.35a4.448 4.448 0 00-3.04 1.649A4.438 4.438 0 004.473.35z" />
+                                        </svg>
+
+                                    </span>
+
+                                    Wishlist</a></li>
+                            <li>
+
+                            <li><a class="dropdown-item" href="javaScript:void(0)">
+
+                                    <span class="icon">
+
+                                        <svg width="11.462" height="12.736">
+                                            <path fill-rule="evenodd"
+                                                d="M4.722 1.092a2.079 2.079 0 00-.265 1.137.318.318 0 01-.318.318 1.329 1.329 0 00-1.052.442 2.932 2.932 0 00-.588 1.3 20.866 20.866 0 00-.27 4.306.319.319 0 01-.637 0v-.03a21.206 21.206 0 01.287-4.42 3.547 3.547 0 01.735-1.583 1.916 1.916 0 011.217-.634A2.455 2.455 0 014.193.737 1.731 1.731 0 015.731 0a1.731 1.731 0 011.538.739 2.455 2.455 0 01.362 1.191 1.916 1.916 0 011.217.634 3.548 3.548 0 01.735 1.583 21.207 21.207 0 01.287 4.42v.03a2.855 2.855 0 00.292 1.325 1.053 1.053 0 00.981.6.319.319 0 010 .637H7.87a2.12 2.12 0 01-.511.887 2.2 2.2 0 01-1.627.691 1.858 1.858 0 01-1.393-.664 2.139 2.139 0 01-.48-.916l-3.541-.012a.319.319 0 010-.637l3.821.013a.318.318 0 01.317.318 1.352 1.352 0 00.358.813 1.223 1.223 0 00.915.447 1.566 1.566 0 001.171-.493 1.291 1.291 0 00.381-.768.318.318 0 01.318-.318h2.2a2.071 2.071 0 01-.193-.291 3.482 3.482 0 01-.372-1.633 20.867 20.867 0 00-.27-4.306 2.932 2.932 0 00-.588-1.3 1.329 1.329 0 00-1.052-.442A.318.318 0 017 2.229a2.079 2.079 0 00-.26-1.137A1.1 1.1 0 005.731.637a1.1 1.1 0 00-1.009.455z"
+                                                data-name="Path 5807" />
+                                        </svg>
+
+                                    </span>
+
+                                    Notification <span class="count">(10)</span></a></li>
+                            <li>
+
+                            <li><a class="dropdown-item" href="javaScript:void(0)">
+
+                                    <span class="icon">
+                                        <svg width="11.857" height="13.108">
+                                            <g data-name="Group 5693">
+                                                <path
+                                                    d="M5.922 13.108A5.926 5.926 0 013.695 1.693a.458.458 0 11.342.848 5.01 5.01 0 104.327 9.023.458.458 0 11.436.793 5.92 5.92 0 01-2.878.751zm4.025-1.771a.467.467 0 01-.305-.119.458.458 0 01-.027-.647 5.01 5.01 0 00-1.8-8.034.458.458 0 11.342-.848 5.923 5.923 0 012.136 9.5.455.455 0 01-.346.148z"
+                                                    data-name="Path 5808" />
+                                                <path
+                                                    d="M5.922 6.621a.458.458 0 01-.458-.458V.458a.458.458 0 11.915 0v5.706a.458.458 0 01-.457.457z"
+                                                    data-name="Path 5809" />
+                                            </g>
+                                        </svg>
+
+                                    </span>
+
+                                    Logout</a></li>
+                            <li>
+                        </ul>
+                    </li>
+
+                    <li class="cart nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="javaScript:void(0)" id="cartDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="icon">
+                                <img src="images/icons/cart.svg" alt="">
+                            </i>
+                            <span class="item-count">3</span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="cartDropdown">
+                            <li><a class="dropdown-item" href="javaScript:void(0)">Action</a></li>
+                            <li><a class="dropdown-item" href="javaScript:void(0)">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="javaScript:void(0)">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#megaMenu" aria-controls="megaMenu" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+            </nav>
+        </div>
+
+        <!-- mega menu  -->
+        <div class="primary-nav collapse navbar-collapse" id="megaMenu">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-12">
+                <div class="head">
+
+                    <!-- inside search bar  -->
+                    <form class="header-search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    </form>
+
+                    <button class="ms-auto navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#megaMenu" aria-controls="megaMenu" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- main content  -->
+            <div class="col-12 main-content-wrap d-lg-flex align-items-start">
+
+                <!-- category navigation  -->
+                <div class="nav flex-column nav-pills hoverPills" id="megamenu-mainContent-tab" role="tablist"
+                    aria-orientation="vertical">
+
+                    <button class="nav-link active" id="collections-tab" data-bs-toggle="pill"
+                        data-bs-target="#collections" type="button" role="tab" aria-controls="collections"
+                        aria-selected="true">Collections</button>
+
+                    <button class="nav-link" id="v-pills-goldScheme-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-goldScheme" type="button" role="tab" aria-controls="v-pills-goldScheme"
+                        aria-selected="false">Gold Scheme</button>
+
+                    <button class="nav-link" id="v-pills-advancedBooking-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-advancedBooking" type="button" role="tab"
+                        aria-controls="v-pills-advancedBooking" aria-selected="false">Advanced
+                        Booking</button>
+
+                    <button class="nav-link" id="v-pills-virtualTry-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-virtualTry" type="button" role="tab" aria-controls="v-pills-virtualTry"
+                        aria-selected="false">Virtual Try</button>
+
+                    <button class="nav-link" id="v-pills-Customization-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-Customization" type="button" role="tab"
+                        aria-controls="v-pills-Customization" aria-selected="false">Customization</button>
+
+                    <button class="nav-link" id="v-pills-FindRingSize-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-FindRingSize" type="button" role="tab"
+                        aria-controls="v-pills-FindRingSize" aria-selected="false">Find Ring
+                        Size</button>
+
+                    <button class="nav-link" id="v-pills-RealtimeInspection-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-RealtimeInspection" type="button" role="tab"
+                        aria-controls="v-pills-RealtimeInspection" aria-selected="false">Realtime
+                        Inspection</button>
+
+                    <a href="javaScript:void(0)" class="nav-link">
+                        Loyalty Point
+                    </a>
+
+                    <a href="javaScript:void(0)" class="nav-link">
+                        About Us
+                    </a>
+                    <a href="javaScript:void(0)" class="nav-link">
+                        Contact Us
+                    </a>
+
+                </div>
+
+                <!-- category content -->
+                <div class="tab-content" id="megamenu-mainContent-tabContent">
+
+                    <div class="tab-pane fade show active" id="collections" role="tabpanel"
+                        aria-labelledby="collections-tab">
+
+                        <ul class="types">
+
+                            <li class="type gold">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/gold.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Gold</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type diamond">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/diamond.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Diamond</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type diamond">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/platinum.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Platinum</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type silver">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/silver.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Silver</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type watches">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/watches.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Watches</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                    <div class="tab-pane fade" id="v-pills-goldScheme" role="tabpanel"
+                        aria-labelledby="v-pills-goldScheme-tab">
+
+                        <ul class="types">
+
+                            <li class="type gold">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/gold.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Gold</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type diamond">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/diamond.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Diamond</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type diamond">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/platinum.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Platinum</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type silver">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/silver.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Silver</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type watches">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/watches.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Watches</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                    <div class="tab-pane fade" id="v-pills-advancedBooking" role="tabpanel"
+                        aria-labelledby="v-pills-advancedBooking-tab">.
+
+                        <ul class="types">
+
+                            <li class="type gold">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/gold.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Gold</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type diamond">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/diamond.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Diamond</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type diamond">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/platinum.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Platinum</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type silver">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/silver.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Silver</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type watches">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/watches.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Watches</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                    <div class="tab-pane fade" id="v-pills-virtualTry" role="tabpanel"
+                        aria-labelledby="v-pills-virtualTry-tab">
+
+                        <ul class="types">
+
+                            <li class="type gold">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/gold.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Gold</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type diamond">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/diamond.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Diamond</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type diamond">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/platinum.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Platinum</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type silver">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/silver.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Silver</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type watches">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/watches.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Watches</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-pane fade" id="v-pills-Customization" role="tabpanel"
+                        aria-labelledby="v-pills-Customization-tab">
+
+                        <ul class="types">
+
+                            <li class="type gold">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/gold.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Gold</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type diamond">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/diamond.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Diamond</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type diamond">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/platinum.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Platinum</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type silver">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/silver.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Silver</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type watches">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/watches.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Watches</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-pane fade" id="v-pills-FindRingSize" role="tabpanel"
+                        aria-labelledby="v-pills-FindRingSize-tab">
+
+                        <ul class="types">
+
+                            <li class="type gold">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/gold.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Gold</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type diamond">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/diamond.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Diamond</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type diamond">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/platinum.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Platinum</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type silver">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/silver.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Silver</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type watches">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/watches.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Watches</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                        </ul>
+                    </div>
+
+
+                    <div class="tab-pane fade" id="v-pills-RealtimeInspection" role="tabpanel"
+                        aria-labelledby="v-pills-RealtimeInspection-tab">
+
+                        <ul class="types">
+
+                            <li class="type gold">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/gold.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Gold</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type diamond">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/diamond.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Diamond</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type diamond">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/platinum.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Platinum</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type silver">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/silver.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Silver</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="type watches">
+
+                                <div class="wrap">
+                                    <div class="type-image">
+                                        <img src="images/categories/watches.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="type-head">
+                                        <h4>Watches</h4>
+                                    </div>
+
+                                    <ul class="type-list">
+                                        <li><a href="javaScript:void(0)">Rings</a></li>
+                                        <li><a href="javaScript:void(0)">Pendents</a></li>
+                                        <li><a href="javaScript:void(0)">Earrings</a></li>
+                                        <li><a href="javaScript:void(0)">Bangles</a></li>
+                                        <li><a href="javaScript:void(0)">Chain</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+    </header>
+
+<main class="inspection-page container pt-0">
+
+    <section class="title-banner loyalty-banner" style="background-image: url(images/inspection-banner.jpg)">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="main-content">
+        <div class="container">
+            <div class="mini-container">
+                <div class="row">
+                    <div class="col-12">
+                        
+                        <div class="inspection-info">
+                            <h2 class="text-center">Real Time Inspection</h2>
+                            <p>
+                                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,
+                            </p>
+                            <p>
+                                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi
+                            </p>
+                        </div>
+
+                        <div class="cta-banner" style="background-image: url(images/realtime-cta.jpg);">
+                            <div class="row">
+                                <div class="col-md-6 offset-md-6 text-center pb-2">
+                                    <div class="text-wrap">
+                                        <h3>Talk With Our Experts</h3>
+                                    <h3 class="gold">Tall-Free : 1800-2589-2596</h3>
+                                    <a href="" class="btn btn-primary mt-4">Connect Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</main>
+
+
+
+    <footer class="siteFooter">
+        <div class="container">
+            <div class="wrapper">
+
+                <div class="group">
+
+                    <div class="logo">
+                        <a href="javaScript:void(0)">
+                            <img src="images/logo.png" alt="" class="img-fluid">
+                        </a>
+                    </div>
+
+                    <ul class="social">
+                        <li>
+                            <a href="javaScript:void(0)">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javaScript:void(0)">
+                                <i class="fab fa-pinterest-p"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javaScript:void(0)">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javaScript:void(0)">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="cards">
+                        <img src="images/cards.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+
+                <div class="group">
+                    <p class="title list-toggler toggle-mobile">Overview</p>
+                    <ul class="menu">
+                        <li><a href="javaScript:void(0)">About Josco</a></li>
+                        <li><a href="javaScript:void(0)">Create Account</a></li>
+                        <li><a href="javaScript:void(0)">News And Offers</a></li>
+                        <li><a href="javaScript:void(0)">Privacy Policy</a></li>
+                        <li><a href="javaScript:void(0)">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+
+                <div class="group">
+                    <p class="title list-toggler toggle-mobile">Useful Links</p>
+                    <ul class="menu">
+                        <li><a href="javaScript:void(0)">Advance Booking</a></li>
+                        <li><a href="javaScript:void(0)">Gold Scheme</a></li>
+                        <li><a href="javaScript:void(0)">3D Try</a></li>
+                        <li><a href="javaScript:void(0)">2d Try</a></li>
+                        <li><a href="javaScript:void(0)">Customization</a></li>
+                    </ul>
+                </div>
+
+                <div class="group">
+                    <p class="title list-toggler toggle-mobile">Let Us Help You</p>
+                    <ul class="menu">
+                        <li><a href="javaScript:void(0)">Ring Size Guide</a></li>
+                        <li><a href="javaScript:void(0)">Find Gems Stone</a></li>
+                        <li><a href="javaScript:void(0)">Real time Inspection</a></li>
+                        <li><a href="javaScript:void(0)">Design Consultation </a></li>
+                        <li><a href="javaScript:void(0)">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <div class="group">
+                    <p class="title list-toggler toggle-mobile">Contact Us</p>
+                    <ul class="menu">
+                        <li><a href="javaScript:void(0)"><span class="icon"><i class="fal fa-phone-alt"></i></span> Tel: 0484 -
+                                2426333</a></li>
+                        <li><a href="javaScript:void(0)"><span class="icon"><i class="fal fa-envelope"></i></span> office@joscogroup.com</a></li>
+                    </ul>
+
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Your Email Address">
+                        <button class="input-group-text">
+                            <img src="images/icons/send.svg" alt="" class="img-fluid">
+                        </button>
+                    </div>
+                    <span class="form-text">
+                        We promise only send the good things
+                    </span>
+                </div>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container wrap">
+                © 2021 Josco Group All Rights Reserved. <span class="powered">Powered by <a href="javaScript:void(0)" class="webcastle"><img
+                    src="images/webcastle.png" alt="webcastle"></a></span>
+            </div>
+        </div>
+    </footer>
+    <!-- <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/custom.js"></script> -->
+    <script src="js/bundle.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+.product-listing {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: visible;
+
+    @include media-breakpoint-down(md) {
+        overflow: hidden;
+    }
+    .sidebar {
+        width: 100%;
+        margin-bottom: 3rem;
+        max-height: var(--productListGridheight);
+        overflow: auto;
+        @include media-breakpoint-up(lg) {
+            width: 24.8%;
+            margin-bottom: 9.4rem;
+            padding-right: 2rem;
+        }
+    }
+
+    .view_more {
+        margin: 5rem 0;
+    }
+    .spotlight {
+        overflow: visible;
+        @include media-breakpoint-up(lg) {
+            width: 75%;
+            padding-left: 2rem;
+        }
+        .top-panel {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid $gray;
+            p {
+                margin-bottom: 0.75rem;
+                @include media-breakpoint-down(sm) {
+                    font-size: $font-size-small;
+                }
+            }
+            .sorter {
+                font-size: $font-size-large;
+                color: $gold;
+                font-family: $headings-font-family;
+                font-weight: $font-weight-semibold;
+                @include media-breakpoint-down(sm) {
+                    font-size: $font-size-base;
+                }
+                select {
+                    border: none;
+                    color: $gold;
+                    font-weight: $font-weight-semibold;
+                    margin-left: -0.3rem;
+                    &:focus,
+                    &:focus-visible {
+                        box-shadow: none;
+                        outline: none;
+                    }
+                    option {
+                        font-size: $font-size-base;
+                    }
+                }
+            }
+        }
+    }
+
+    .banner {
+        @include titleBanner();
+    }
+}

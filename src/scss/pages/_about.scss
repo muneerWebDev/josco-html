@@ -1,0 +1,191 @@
+.about-page {
+    .intro {
+        padding: 8.3rem 0 6.2rem;
+        @include media-breakpoint-up(md) {
+            position: relative;
+            &::before {
+                content: "";
+                width: 20rem;
+                height: 20.7rem;
+                background: url("../images/animated-svgs/strings-9.svg") bottom right no-repeat;
+                background-size: contain;
+                position: absolute;
+                right: -.5rem;
+                top: -.5rem;
+            }
+        }
+
+    }
+
+    .left-right-sec {
+        .row {
+            --bs-gutter-x: 6.7rem;
+        }
+
+        .image {
+            margin-left: calc(-1 * calc(var(--containerOffset) + var(--bs-gutter-x, 15px)));
+            img {
+                width: 100%;
+            }
+        }
+        .text {
+            padding: 9rem 0;
+        }
+    }
+
+    .awards_recognition {
+        padding: 8.5rem 0;
+        ul {
+            list-style: none;
+            margin-top: 2rem;
+            li {
+                position: relative;
+                padding-left: 3rem;
+                line-height: 2;
+                font-weight: $font-weight-semibold;
+                &::before {
+                    content: "";
+                    min-width: 1.5rem;
+                    min-height: 2rem;
+                    background: url(../images/achivement-list.jpg);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    position: absolute;
+                    top: 0.5rem;
+                    left: 0;
+                }
+
+                & + li {
+                    margin-top: 1.5rem;
+                }
+            }
+        }
+    }
+
+    .certifications {
+        background: $light-red;
+        padding: 8rem 0;
+    }
+
+    .our-quote {
+        padding: 14rem 0 8rem;
+        position: relative;
+        &::after {
+            content: "";
+            width: 20rem;
+            height: 20.7rem;
+            background: url("../images/animated-svgs/strings-8.svg") bottom right no-repeat;
+            background-size: contain;
+            position: absolute;
+            left: calc(36.1rem + 11rem);
+            top: -2rem;
+        }
+        .wrapper {
+            border-bottom: 1px solid $gold;
+            position: relative;
+
+            @include media-breakpoint-up(lg) {
+                display: flex;
+                &::after {
+                    content: "";
+                    position: absolute;
+                    @include joscoTextRing(14rem, $rotateAnime: true);
+                    right: -7rem;
+                    top: -7rem;
+                    z-index: -1;
+                }
+            }
+            .image {
+                min-width: 36.1rem;
+                position: relative;
+                z-index: 1;
+                padding: 11rem 0;
+                &::after {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    width: 10rem;
+                    height: 100%;
+                    background: $light-red;
+                    z-index: -1;
+                }
+
+                @include media-breakpoint-down(lg) {
+                    background: $light-red;
+                    padding: 0 0 10rem;
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                @include media-breakpoint-down(md) {
+                    padding: 0 0 5rem;
+                }
+            }
+
+            .text {
+                padding: 9rem 6rem;
+                background: $light-red;
+                z-index: 1;
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                @include media-breakpoint-down(md) {
+                    padding: 9rem 3rem;
+                }
+                &::before {
+                    content: "";
+                    position: absolute;
+                    top: -4rem;
+                    left: -17rem;
+                    width: 12.3rem;
+                    height: 9.63rem;
+                    background: url("../images/quote.png") center center;
+                    z-index: 2;
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    @include media-breakpoint-down(lg) {
+                        left: 3rem;
+                    }
+                    @include media-breakpoint-down(md) {
+                        width: 10.3rem;
+                        height: 7.63rem;
+                        top: -2rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .benifits {
+        margin: 5.5rem 0 9.5rem;
+    }
+}
+
+.our_stores {
+    .stores_tab_wrapper {
+
+        @include media-breakpoint-up(md){
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #all-stores-tab {
+
+            @include media-breakpoint-up(md) {
+                width: 28.5rem;
+            }
+        }
+
+        #all-stores-tabContent {
+
+            @include media-breakpoint-up(md) {
+                width: calc(100% - 28.5rem);
+                padding-left: 4rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,74 @@
+.know_your_stone-page {
+    .intro {
+        .image {
+            margin-left: calc(-1 * #{$containerOffsetWithGutters});
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .userinput-stones-sec {
+        margin: 8.5rem 0;
+    }
+
+
+    .results-wrapper{
+        background: $light-red;
+        margin-top: 3rem;
+
+        .col-md-4{
+            background-size: 102%;
+            background-position: left center;
+            &:last-child{
+                background-size: 100% 1005%;
+            }
+            
+            @include media-breakpoint-down(md){
+                background-image: none;
+            }
+        }
+    }
+
+    .results-stones-grid {
+
+        @include media-breakpoint-down(md){
+            padding: 6rem 0;
+        }
+        .wrapper{
+            padding: 9rem 15px;
+
+            @include media-breakpoint-down(md){
+                padding: 3rem 15px;
+            }
+        }
+
+        .spotlight{
+            background: $white;
+            box-shadow: $card-box-shadow;
+            height: 28.7rem;
+            margin-bottom: 1.2rem;
+            .title{
+                color: $gold;
+                margin-top: 4rem;
+            }
+
+            &>.item{
+                height: 100%;
+                padding: 3rem 4.5rem 1rem;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                justify-content: space-between;
+
+                .image{
+                    margin: auto;
+                }
+            }
+        }
+
+        .small-title{
+            margin: 0;
+        }
+    }
+}

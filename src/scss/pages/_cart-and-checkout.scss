@@ -1,0 +1,126 @@
+.cart-and-checkout {
+    .main-content {
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 6rem;
+
+        .left-sec {
+            position: relative;
+            width: 100%;
+
+            @include media-breakpoint-up(lg) {
+                width: 67%;
+                padding-right: 3.5rem;
+            }
+
+            @include media-breakpoint-up(xl) {
+                width: 70.5%;
+            }
+            .table-responsive {
+                padding-left: 1rem;
+                margin-left: -1rem;
+            }
+
+            a {
+                display: inline-block;
+            }
+
+            .product-image {
+                width: 15.6rem;
+                height: 12.2rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+                box-shadow: $product-box-shadow;
+
+                @include media-breakpoint-down(sm) {
+                    width: 12.6rem;
+                }
+                .wishlist {
+                    position: absolute;
+                    top: 1.2rem;
+                    right: 0.8rem;
+                }
+                img {
+                    max-width: 10rem;
+                    max-height: 9rem;
+                }
+            }
+
+            .product-name {
+                max-width: 24.5rem;
+            }
+
+            .price {
+                font-size: $font-size-large;
+                font-weight: $font-weight-semibold;
+            }
+
+            .qty-wrapper {
+                display: flex;
+                align-items: center;
+                .btn-light {
+                    font-size: $font-size-large;
+                }
+                input {
+                    width: 4rem;
+                    margin: 0 0.2rem;
+                    border: none;
+                    text-align: center;
+                    outline-color: $light-red;
+                }
+            }
+        }
+
+        .right-sec {
+            width: 100%;
+            @include media-breakpoint-up(lg) {
+                width: 33%;
+            }
+            @include media-breakpoint-up(xl) {
+                width: 29.5%;
+            }
+            // align-self: flex-start;
+
+            
+
+            .shipping-info {
+                max-width: 36.5rem;
+                margin-left: auto;
+                text-align: center;
+                padding: 2rem 3.5rem;
+                @include media-breakpoint-down(lg) {
+                    margin: auto;
+                }
+                @media (max-width: 1350px) {
+                    font-size: $font-size-medium;
+                }
+            }
+
+            .summary {
+                @extend .aside-box;
+
+                @include media-breakpoint-down(sm) {
+                    max-width: initial;
+                }
+                .shipping-info {
+                    margin: 0 -3rem -3.5rem;
+                    background: $white;
+                    margin-top: 3.5rem;
+                    @include media-breakpoint-down(sm) {
+                        max-width: initial;
+                    }
+
+                }
+            }
+
+            .loyality-icon {
+                svg {
+                    transform: scale(0.9);
+                    margin-top: -3px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,64 @@
+.faq-page {
+    padding-top: 0 !important;
+
+    #faqTab {
+        padding-top: 3rem;
+    }
+}
+
+#faqTab {
+    margin: 0 -2.2rem;
+    justify-content: center;
+    border: none;
+    .nav-link{
+        padding: .7rem 1.8rem;
+        border: 1px solid $black;
+        border-radius: 0;
+        &:hover{
+            background: $primary;
+            color: $white;
+            border-color: $primary;
+        }
+        
+    }
+
+    .nav-item{
+        margin: 1.5rem 2rem;
+    }
+
+}
+
+#faqContent{
+    padding: 8rem 0 9.5rem;
+    h3{
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+
+    .accordion-item{
+        margin-bottom: 2rem;
+        border: 1px solid $main-border-dark;
+        line-height: 1.5;
+        border-radius: 0;
+    }
+    
+    .accordion-button{
+        background: transparent;
+        padding: 1.3rem 2.5rem;
+        font-size: $font-size-base;
+        font-weight: $font-weight-semibold2;
+
+        &::after {
+            content: "";
+            @include arrow($black, 2.5px, 2px, down);
+        }
+
+        &:not(.collapsed)::after{
+            @include arrow($black, 2.5px, 2px, up);
+        }
+    }
+
+    .accordion-collapse {
+        padding: .3rem 2.5rem 1.3rem;
+    }
+}
